@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Download all Fortinet Ordering Guide PDFs from docs.fortinet.com/ordering-guides.
+Download all Fortinet Ordering Guide PDFs discovered from
+docs.fortinet.com/ordering-guides.
 
 Usage:
     python download_fortinet_ordering_guides.py [output_dir]
@@ -10,12 +11,8 @@ Behavior:
 - Skips files that already exist and match the expected size (safe to re-run).
 - Retries transient failures.
 - Writes a manifest.csv summarizing what was downloaded / skipped / failed.
-
-Notes:
-- The guide list below was extracted directly from the ordering-guides page as
-  of Aug 2026. Fortinet occasionally adds/removes/renames guides, so if you
-  notice new ones on the site that aren't downloading, the list may need a
-  refresh (re-scrape the page and update GUIDES below).
+- Reads discovered_guides.csv when it exists; the built-in list is retained as
+  a fallback for running this script by itself.
 """
 
 import csv
@@ -29,6 +26,7 @@ import requests
 
 BASE_OUTPUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "fortinet_ordering_guides"
 BASE_URL = "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/"
+DISCOVERED_GUIDES_PATH = os.path.join(BASE_OUTPUT_DIR, "discovered_guides.csv")
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -148,19 +146,48 @@ def download_one(url: str, dest_path: str) -> tuple[str, str]:
     return "failed", last_error
 
 
+def load_guides() -> list[tuple[str, str, str, str]]:
+    if not os.path.exists(DISCOVERED_GUIDES_PATH):
+        return [
+            (category, title, filename, BASE_URL + filename)
+            for category, title, filename in GUIDES
+        ]
+
+    required_fields = {"category", "title", "url", "filename"}
+    guides = []
+    with open(DISCOVERED_GUIDES_PATH, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        if not required_fields.issubset(reader.fieldnames or set()):
+            raise ValueError(
+                f"{DISCOVERED_GUIDES_PATH} is missing required fields: "
+                f"{', '.join(sorted(required_fields))}"
+            )
+        for row in reader:
+            guides.append((
+                row["category"].strip(),
+                row["title"].strip(),
+                row["filename"].strip(),
+                row["url"].strip(),
+            ))
+    if not guides:
+        raise ValueError(f"{DISCOVERED_GUIDES_PATH} contains no guides")
+    print(f"Loaded {len(guides)} guides from {DISCOVERED_GUIDES_PATH}")
+    return guides
+
+
 def main():
     os.makedirs(BASE_OUTPUT_DIR, exist_ok=True)
     manifest_path = os.path.join(BASE_OUTPUT_DIR, "manifest.csv")
     rows = []
+    guides = load_guides()
 
-    total = len(GUIDES)
-    for i, (category, title, filename) in enumerate(GUIDES, start=1):
+    total = len(guides)
+    for i, (category, title, filename, url) in enumerate(guides, start=1):
         cat_dir = os.path.join(BASE_OUTPUT_DIR, sanitize(category))
         os.makedirs(cat_dir, exist_ok=True)
 
         # Keep the original filename so it stays recognizable / linkable back to source
         dest_path = os.path.join(cat_dir, filename)
-        url = BASE_URL + filename
 
         status, detail = download_one(url, dest_path)
         print(f"[{i}/{total}] {status.upper():10} {category} / {title} -> {detail}")

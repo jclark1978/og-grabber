@@ -1,6 +1,7 @@
 # Ordering Guide Grabber
 
-Downloads Fortinet ordering guides and converts them to Markdown.
+Discovers Fortinet ordering guides from the official ordering-guide page,
+downloads them, and converts them to Markdown.
 
 ## Run locally
 
@@ -11,8 +12,13 @@ python3 -m pip install -r requirements.txt
 python3 run_ordering_guides_pipeline.py
 ```
 
-The pipeline downloads the PDFs, converts them to Markdown, and deletes each
-PDF after successful conversion. Failed conversions keep their PDFs for retry.
+The pipeline discovers the current guide list, downloads the PDFs, converts
+them to Markdown, and deletes each PDF after successful conversion. Failed
+conversions keep their PDFs for retry.
+
+The discovery results are saved in `fortinet_ordering_guides/discovered_guides.csv`.
+The downloader uses that file when available and retains its built-in guide
+list as a fallback when run by itself.
 
 ## GitHub Actions
 
