@@ -1,0 +1,61 @@
+pdf,markdown,status,detail
+fortinet_ordering_guides/01. Unified OS/og-cloud-next-generation-firewall.pdf,fortinet_ordering_guides/01. Unified OS/og-cloud-next-generation-firewall.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/01. Unified OS/og-data-center-firewall.pdf,fortinet_ordering_guides/01. Unified OS/og-data-center-firewall.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/01. Unified OS/og-fgaas.pdf,fortinet_ordering_guides/01. Unified OS/og-fgaas.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/01. Unified OS/og-fortiproxy.pdf,fortinet_ordering_guides/01. Unified OS/og-fortiproxy.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/01. Unified OS/og-next-generation-firewall.pdf,fortinet_ordering_guides/01. Unified OS/og-next-generation-firewall.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/01. Unified OS/og-secure-sdwan.pdf,fortinet_ordering_guides/01. Unified OS/og-secure-sdwan.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/02. LAN Security/og-fortiextender.pdf,fortinet_ordering_guides/02. LAN Security/og-fortiextender.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/02. LAN Security/og-fortinac.pdf,fortinet_ordering_guides/02. LAN Security/og-fortinac.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/02. LAN Security/og-fortiswitch.pdf,fortinet_ordering_guides/02. LAN Security/og-fortiswitch.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/02. LAN Security/og-lan-edge.pdf,fortinet_ordering_guides/02. LAN Security/og-lan-edge.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/02. LAN Security/og-wireless.pdf,fortinet_ordering_guides/02. LAN Security/og-wireless.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/03. Unified Endpoint/og-forticlient.pdf,fortinet_ordering_guides/03. Unified Endpoint/og-forticlient.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/03. Unified Endpoint/og-fortidlp.pdf,fortinet_ordering_guides/03. Unified Endpoint/og-fortidlp.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/03. Unified Endpoint/og-fortiedr.pdf,fortinet_ordering_guides/03. Unified Endpoint/og-fortiedr.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/03. Unified Endpoint/og-fortiendpoint.pdf,fortinet_ordering_guides/03. Unified Endpoint/og-fortiendpoint.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-cloud-consult-svc.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-cloud-consult-svc.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiadc.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiadc.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiappsec.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiappsec.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-forticasb-sspm.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-forticasb-sspm.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-forticnapp.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-forticnapp.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiweb.pdf,fortinet_ordering_guides/04. Unified AppSec and Cloud/og-fortiweb.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/05. Unified WorkSpace Security/og-fortimail-wss.pdf,fortinet_ordering_guides/05. Unified WorkSpace Security/og-fortimail-wss.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/05. Unified WorkSpace Security/og-fortimail.pdf,fortinet_ordering_guides/05. Unified WorkSpace Security/og-fortimail.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/06. Unified SecOps Platform/og-fortianalyzer.pdf,fortinet_ordering_guides/06. Unified SecOps Platform/og-fortianalyzer.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/06. Unified SecOps Platform/og-fortisiem.pdf,fortinet_ordering_guides/06. Unified SecOps Platform/og-fortisiem.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/06. Unified SecOps Platform/og-fortisoar.pdf,fortinet_ordering_guides/06. Unified SecOps Platform/og-fortisoar.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/07. Unified AI-Ops/og-fortiaiops.pdf,fortinet_ordering_guides/07. Unified AI-Ops/og-fortiaiops.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/07. Unified AI-Ops/og-fortimonitor.pdf,fortinet_ordering_guides/07. Unified AI-Ops/og-fortimonitor.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/08. Unified Attack Surface Management/og-fortirecon.pdf,fortinet_ordering_guides/08. Unified Attack Surface Management/og-fortirecon.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/08. Unified Attack Surface Management/og-ir-services.pdf,fortinet_ordering_guides/08. Unified Attack Surface Management/og-ir-services.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/09. Central Management/og-forticloud-mgmt-analytics.pdf,fortinet_ordering_guides/09. Central Management/og-forticloud-mgmt-analytics.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/09. Central Management/og-fortiedge.pdf,fortinet_ordering_guides/09. Central Management/og-fortiedge.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/09. Central Management/og-fortimanager.pdf,fortinet_ordering_guides/09. Central Management/og-fortimanager.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/10. Advanced Threat Detection/og-fortideceptor.pdf,fortinet_ordering_guides/10. Advanced Threat Detection/og-fortideceptor.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/10. Advanced Threat Detection/og-fortindr.pdf,fortinet_ordering_guides/10. Advanced Threat Detection/og-fortindr.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/10. Advanced Threat Detection/og-fortisandbox.pdf,fortinet_ordering_guides/10. Advanced Threat Detection/og-fortisandbox.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/11. Identity and Access/og-fortiauthenticator.pdf,fortinet_ordering_guides/11. Identity and Access/og-fortiauthenticator.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/11. Identity and Access/og-fortiindentity.pdf,fortinet_ordering_guides/11. Identity and Access/og-fortiindentity.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/11. Identity and Access/og-fortipam.pdf,fortinet_ordering_guides/11. Identity and Access/og-fortipam.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/11. Identity and Access/og-fortitoken.pdf,fortinet_ordering_guides/11. Identity and Access/og-fortitoken.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/11. Identity and Access/og-ztna.pdf,fortinet_ordering_guides/11. Identity and Access/og-ztna.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/12. SASE/og-casb.pdf,fortinet_ordering_guides/12. SASE/og-casb.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/12. SASE/og-fortibranchsase.pdf,fortinet_ordering_guides/12. SASE/og-fortibranchsase.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/12. SASE/og-fortisase.pdf,fortinet_ordering_guides/12. SASE/og-fortisase.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/12. SASE/og-sovereign-sase.pdf,fortinet_ordering_guides/12. SASE/og-sovereign-sase.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/13. Training/og-nse-program.pdf,fortinet_ordering_guides/13. Training/og-nse-program.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/14. Flexible Licensing/og-cmpo.pdf,fortinet_ordering_guides/14. Flexible Licensing/og-cmpo.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/14. Flexible Licensing/og-entagreement.pdf,fortinet_ordering_guides/14. Flexible Licensing/og-entagreement.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/14. Flexible Licensing/og-flex-vm.pdf,fortinet_ordering_guides/14. Flexible Licensing/og-flex-vm.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/15. Advanced Support/og-forticare.pdf,fortinet_ordering_guides/15. Advanced Support/og-forticare.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/16. Managed Services/og-mfgs.pdf,fortinet_ordering_guides/16. Managed Services/og-mfgs.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/16. Managed Services/og-socaas.pdf,fortinet_ordering_guides/16. Managed Services/og-socaas.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/17. Vertical - Operational Technology/og-operational-technology.pdf,fortinet_ordering_guides/17. Vertical - Operational Technology/og-operational-technology.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/18. Vertical - Others/og-education.pdf,fortinet_ordering_guides/18. Vertical - Others/og-education.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/18. Vertical - Others/og-mssp.pdf,fortinet_ordering_guides/18. Vertical - Others/og-mssp.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/18. Vertical - Others/og-telco.pdf,fortinet_ordering_guides/18. Vertical - Others/og-telco.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/19. Other Products and Solutions/og-fortiaigate.pdf,fortinet_ordering_guides/19. Other Products and Solutions/og-fortiaigate.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/19. Other Products and Solutions/og-forticam.pdf,fortinet_ordering_guides/19. Other Products and Solutions/og-forticam.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/19. Other Products and Solutions/og-fortiddos.pdf,fortinet_ordering_guides/19. Other Products and Solutions/og-fortiddos.md,converted,pdfplumber; PDF deleted
+fortinet_ordering_guides/19. Other Products and Solutions/og-fortiguard.pdf,fortinet_ordering_guides/19. Other Products and Solutions/og-fortiguard.md,converted,pdfplumber; PDF deleted
