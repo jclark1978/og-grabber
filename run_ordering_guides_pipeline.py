@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Download ordering-guide PDFs and convert them to Markdown in sequence.
+"""Discover, download, and convert ordering guides in sequence.
 
 Usage:
     python run_ordering_guides_pipeline.py [output_dir]
 
-The child scripts' progress is streamed directly to the terminal. Conversion
-starts only when the download script exits successfully.
+The child scripts' progress is streamed directly to the terminal. Downloading
+starts only when discovery succeeds, and conversion starts only when
+downloading succeeds.
 """
 
 import argparse
@@ -15,6 +16,7 @@ from pathlib import Path
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+DISCOVER_SCRIPT = SCRIPT_DIR / "discover_ordering_guides.py"
 DOWNLOAD_SCRIPT = SCRIPT_DIR / "download_fortinet_ordering_guides.py"
 CONVERT_SCRIPT = SCRIPT_DIR / "convert_ordering_guides_to_markdown.py"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "fortinet_ordering_guides"
@@ -33,7 +35,7 @@ def run_stage(stage_name: str, script_path: Path, output_dir: Path) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Download ordering guides, then convert them to Markdown."
+        description="Discover, download, and convert ordering guides."
     )
     parser.add_argument(
         "output_dir",
@@ -46,6 +48,9 @@ def main() -> int:
     output_dir = args.output_dir.expanduser().resolve()
 
     print(f"Ordering guide pipeline started. Output directory: {output_dir}", flush=True)
+
+    if run_stage("Discovering ordering guides", DISCOVER_SCRIPT, output_dir) != 0:
+        return 1
 
     if run_stage("Downloading ordering guides", DOWNLOAD_SCRIPT, output_dir) != 0:
         return 1
