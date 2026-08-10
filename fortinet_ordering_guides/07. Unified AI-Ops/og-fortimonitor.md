@@ -9,7 +9,7 @@ platform.
 To observe your estate, FortiMonitor provides support for Windows, Mac and Linux OS
 installable Agents. Additionally, OnSight vCollectors which can run as Virtual Machines
 (or Hardware appliances - our FortiMonitor 100F - enable native K8s, VMware, AWS,
-Azure monitoring support). In addition, with our gloal network of Points of Prescence
+Azure monitoring support). In addition, with our global network of Points of Prescence
 (Pops), FortiMonitor extends monitoring coverage globally, providing detailed
 infrastructure insights with unparalleled coverage.
 Furthermore, FortiMonitor also delivers best in class Javascript and HTTP Browser
@@ -326,4 +326,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FMN-OG-R16-20260630
+FMN-OG-R17-20260806

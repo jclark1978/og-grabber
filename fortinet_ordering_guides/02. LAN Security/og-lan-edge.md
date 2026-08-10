@@ -23,7 +23,7 @@ the LAN.
 throughput, interface connectivity, and redundancy (WAN, power, IPsec VPN tunnels,
 device).
 • FortiAP Deployment Guidelines: Provides estimations for FortiAP density
-(approximately one FortiAP for 1500 sq ft or 150 sq m, and about 60 active devices
+(approximately one FortiAP for 1500 sq ft or 150 sq m, and about 100+ active devices
 per FortiAP), and explains the difference between 4x4 and 2x2 MIMO in FortiAPs
 regarding antenna alignment and performance benefits for client devices.
 
@@ -59,18 +59,23 @@ visibility.
 FortiGate Secure LAN Controller Ordering Guide
 PRODUCT OFFERINGS
 FortiAP—Standard and Unified Threat Protection Models
-FortiAP devices come in a variety of models that support the latest Wi-Fi technologies, including Wi-Fi 6 (F series), 6E (G
-series), and even Wi-Fi 7 (K series). Indoor, outdoor, and high-density models are available, as well as wall-plate models for the
-hospitality industry.
+FortiAP devices come in a variety of models that support the latest Wi-Fi technologies, including 6E (G series), and Wi-Fi 7 (K
+series). Indoor, outdoor, and high-density models are available, as well as wall-plate models for the hospitality industry.
 FortiAP product family is Wi-Fi7 ready and are available in 2x2 (two MIMO stream) and 4x4 (four MIMO stream) models. Several
 G series models support dual 5 GHz operation mode for the most demanding Wi-Fi environments. The FAP-831F is an 8x8
 Multi-User MIMO model for high density cases, such as lecture halls or auditoriums. FortiGates require no additional licenses to
 manage FortiAPs, although there are FortiGate model-specific AP limits.
-FortiAP K series Wi-Fi 7 models, along with support for 6 GHz spectrum, are designed to meet the next generation of wireless
-connectivity needs by supporting generational improvements of Wi-Fi 7 (802.11be) over Wi-Fi 6/6E (802.11ax), which includes
-4K-QAM, support for 320 MHz, Multi-Link Operation (MLO), Multi-RU, and puncturing capability for better use of spectrum.
+The FortiAP K-Series access points deliver next-generation wireless connectivity with Wi-Fi 7 (IEEE 802.11be) and support for
+the 6 GHz spectrum. Built on the latest Wi-Fi standard, the K-Series introduces significant advancements over Wi-Fi 6/6E (IEEE
+802.11ax), enabling higher throughput, lower latency, improved spectral efficiency, and enhanced performance in high-density
+environments.
 To support these multi-gig over-the-air transmissions, these APs can be powered by FortiSwitch with 802.3bt PoE and Multi-
 Gigabit connectivity.
+Key Wi-Fi 7 innovations include 4096-QAM (4K-QAM) for increased data rates, 320 MHz channel support for greater
+bandwidth, Multi-Link Operation (MLO) for simultaneous multi-band communication, Multi-Resource Unit (Multi-RU)
+allocation for improved scheduling efficiency, and preamble puncturing to maximize spectrum utilization by avoiding
+interference. Together, these capabilities enable more reliable connectivity, higher network capacity, and an enhanced user
+experience across enterprise, campus, branch, and high-density deployments.
 FortiSwitch—Ethernet Switching
 Reliable, highly-performing, and purpose-built, Ethernet FortiSwitches are available in a variety of models to address needs from
 the small office access layer to the datacenter. All models support FortiLink and can be managed and configured directly from a
@@ -126,10 +131,11 @@ FortiAP Requirements
 Determine the number of FortiAPs needed first, which is primarily driven by how much floor space needs to be covered, with
 adjustments to the local wireless conditions. Wi-Fi design is highly location dependent, and a wireless site- survey from your
 reseller is always recommended.
-For planning purposes, a FortiAP typically covers 1500 sq ft (150 sq m) and accommodates 60 active devices per service radio,
-or 120 devices per FortiAP. The 2x2 models are common in retail, public access, and similar lighter use. The 4x4 models are
+For planning purposes, a FortiAP typically covers 1500 sq ft (150 sq m) and accommodates 100+ active devices per service
+radio, or 120 devices per FortiAP. The 2x2 models are common in retail, public access, and similar lighter use. The 4x4 models
+are
 more common in offices and heavier use environments. However, all devices will perform well with all FortiAP models. Consult a
-Fortinet reseller about external antenna or specialty models, such as the FAP-23JF.
+Fortinet reseller about external antenna or specialty models, such as the FAP-23JF or 23JK.
 The UTP (Unified Threat Protection) models can deliver FortiGuard services on the FortiAP itself, offloading from the FortiGate.
 FortiAPs can be powered by standards-based PoE access switches that match the requirements of the particular model. Power
 injectors or AC power can be used when PoE switches are unavailable. FortiAPs can connect to a FortiGate via FortiLink over
@@ -157,10 +163,10 @@ In order to leave room for growth, we recommend the FortiGate have a capacity fo
 and FortiSwitches to be deployed. Because of the different ways traffic is handled on the FortiGate, the FortiAP and FortiSwitch
 numbers are independent and can be evaluated separately. One Secure LAN device type does not affect the limit on the other
 type.
-The most conservative FortiGate throughput number is the Threat Protection Throughput (Enterprise Mix), and that will be cited
-in the following examples. However, keep in mind that FortiAP-U series APs can offload FortiGuard Services. When that is the
-case, the higher NGFW number should be used for the FortiGate. In a branch deployment, the throughput should be more than
-the Internet uplink. In a dedicated controller environment, it is likely to be the same number in that the wireless end users are
+The most conservative FortiGate throughput number is the Threat Protection Throughput (Enterprise Mix), and that will be
+cited in the following examples. When that is the case, the higher NGFW number should be used for the FortiGate. In a branch
+deployment, the throughput should be more than the Internet uplink. In a dedicated controller environment, it is likely to be the
+same number in that the wireless end users are
 probably the primary Internet users.
 Finally, the more critical and larger the Secure LAN Network, the more likely the Secure LAN Controller should actually be a pair
 of FortiGates in High Availability (HA) mode.
@@ -192,7 +198,7 @@ Light Retail / Small Branch
 An open area allows wider FAP coverage, Wi-Fi use is light, one wired register, one wireless printer, cost conscious, SMB Bundle.
 LIGHT RETAIL / SMALL BRANCH
 PRODUCTS NEED SUGGESTED SOLUTIONS
-FortiAPs 4000 square feet, no walls, light Wi-Fi 241K, 231K, 243K
+FortiAPs 4000 square feet, no walls, light Wi-Fi 241K, 231K, 243K, FAP-221K
 Access FSW 8 PoE ports, at power FS-108F-FPOE
 Aggregation FSW Not needed —
 FortiGate SMB class firewall + WiFi and switch controller FGT-50G
@@ -204,7 +210,7 @@ MID SIZE BRANCH
 QTY SKU SUPPORT
 FortiAPs 30,000 square feet (20 FAP) FAP-441K/241K/231K/23JK
 Access FSW Multi-Gig switches, bt/at PoE FS-110G-FPOE, FS-M426E-FPOE, FS-648F-FPOE or similar
-Aggregation FSW MCLAG, SFP+ connectors FS-1024E, 1048E, 2048F
+Aggregation FSW MCLAG, SFP+ connectors FS-1024E, 2048F, 1048G
 FortiGate Enterprise package, redundant pair Dual FGT-120G, HA mode
 SFPs 10GE copper 10GE SFP+ copper connectors
 Mid Range Enterprise
@@ -214,7 +220,7 @@ MID RANGE ENTERPRISE
 QTY SKU SUPPORT
 FortiAPs 225 000 sq ft (150 FAP) FAP-441K/241K
 Access FSW Multi-Gig switch, bt PoE FS-M426E-FPOE, FS-648F, or similar
-Aggregation FSW MCLAG, SFP+ connectors FS-1024E, 1048E, 2048F
+Aggregation FSW MCLAG, SFP+ connectors FS-1024E, 2048F, 1048G
 FortiGate Enterprise package, redundant pair 2 FGT-600F, HA mode
 SFPs SFP 10GE SFP+ copper connectors
 7
@@ -254,11 +260,11 @@ Eight hundred Indoor FortiAPs, 100 outdoor FortiAPs, Multi-Gig PoE access switch
 redundant FortiGates as dedicated Wi-Fi and Switch controllers (ISFW), Enterprise Bundle.
 LARGE CAMPUS / SCHOOL DISTRICT
 QTY SKU SUPPORT
-FortiAPs Indoor and outdoor coverage FAP-441K/443K + FAP-432G/234G
+FortiAPs Indoor and outdoor coverage FAP-441K/443K + FAP-432G/234G/FAP-244K
 FS-110G-FPOE, FS-M426E-FPOE, FS-648F, FS-T1024F-
 Access FSW Multi-Gig switch, bt PoE
 FPOE, or similar
-Aggregation FSW MCLAG, SFP+ connectors FS-1024E/1048E/2048F/3032G
+Aggregation FSW MCLAG, SFP+ connectors FS-1024E/2048F/1048G/3032G
 FortiGate Enterprise package, redundant pair 2 FGT-1800F, or similar
 SFPs SFP 10/40 GE fiber
 Top Sellers
@@ -327,6 +333,8 @@ FAP-231K FAP-231K-suffix* FC-10-P231K-247-02-DD
 FAP-23JK FAP-23JK-suffix* FC-10-P23JK-247-02-DD
 FAP-241K FAP-241K-suffix* FC-10-FP21K-247-02-DD
 FAP-243K FAP-243K-suffix* FC-10-FP23K-247-02-DD
+FortiAP 221K FAP-221K-suffix* FC-10-P221K-247-02-DD
+FortiAP 244K FAP-244K-suffix* FC-10-F244K-247-02-DD
 FAP-432G FAP-432G-suffix* FC-10-P432G-247-02-DD
 FAP-234G FAP-234G-suffix* FC-10-P234G-247-02-DD
 FAP-432FR FAP-432FR-suffix* FC-10-FR432-247-02-DD
@@ -347,11 +355,10 @@ FortiSwitch-148F-FPOE FS-148F-FPOE FC-10-148FF-247-02-DD
 FortiSwitchRugged-216F-POE FSR-216F-POE FC-10-SR16F-247-02-DD
 FortiSwitch-224D-FPOE FS-224D-FPOE FC-10-W0226-247-02-DD
 FortiSwitch-248E-FPOE FS-248E-FPOE FC-10-W248E-247-02-DD
+FortiSwitch-348G-FPOE FS-348G-FPOE FC-10-348GF-247-02-DD
 FortiSwitch-424E-FPOE FS-424E-FPOE FC-10-S424F-247-02-DD
 FortiSwitch-M426E-FPOE FS-M426E-FPOE FC-10-M426E-247-02-DD
 FortiSwitchRugged-424F-POE FSR-424F-POE FC-10-R24FP-247-02-DD
-FortiSwitch-448E-FPOE FS-448E-FPOE FC-10-S448F-247-02-DD
-FortiSwitch-548D-FPOE FS-548D-FPOE FC-10-W0501-247-02-DD
 FortiSwitch-624F-FPOE FS-624F-FPOE FC-10-624FF-247-02-DD
 FortiSwitch-648F-FPOE FS-648F-FPOE FC-10-648FF-247-02-DD
 FortiSwitch-T1024F-FPOE FS-T1024F-FPOE FC-10-TF124-247-02-DD
@@ -676,23 +683,24 @@ FortiCare Premium FC-10-FP41K-247-02-DD FC-10-FP43K-247-02-DD FC-10-FP21K-247-02
 FortiCare Elite FC-10-FP41K-284-02-DD FC-10-FP43K-284-02-DD FC-10-FP21K-284-02-DD FC-10-FP23K-284-02-DD
 FortiCare Essential FC-10-FP41K-314-02-DD FC-10-FP43K-314-02-DD FC-10-P241K-314-02-DD FC-10-P243K-314-02-DD
 * FortiCare is included in the FortiEdge Cloud Management license.
-FORTIAP FAP-231K FAP-23JK
+FORTIAP FAP-221K FAP-231K FAP-23JK
 STANDARD
-Wi-Fi Generation 7 7
-MIMO/Antennas 2x2, Internal 2x2, Internal
-Use Indoor Indoor wall plate
-Majority of clients Laptops, all Hotel Rooms
-Radios 3 3
-Ethernet ports 1x5GE 1x10GE, 3xGE
-PoE (802.3xx) 1at bt
-Hardware FAP-231K-suffix FAP-23JK-suffix*
-NB - no license required for FortiGate management
-FortiEdge Cloud Management (when NOT managed by FC-10-90AP1-639-02-DD
-FC-10-90AP1-639-02-DD
-FortiGate)*
-FortiCare Premium FC-10-P231K-247-02-DD FC-10-P23JK-247-02-DD
-FortiCare Elite FC-10-P231K-284-02-DD FC-10-P23JK-284-02-DD
-FortiCare Essential FC-10-P231K-314-02-DD FC-10-P23JK-314-02-DD
+Wi-Fi Generation 7 7 7
+MIMO/Antennas 2x2, Internal 2x2, Internal 2x2, Internal
+Use Indoor Indoor Indoor wall plate
+Majority of clients Laptops, all Laptops, all Hotel Rooms
+Radios 2 3 3
+Ethernet ports 1x2.5GE 1x5GE 1x10GE, 3xGE
+PoE (802.3xx) 1at 1at bt
+Hardware FAP-221K-Suffix* FAP-231K-suffix FAP-23JK-suffix*
+NB - no license required for FortiGate
+management
+FortiEdge Cloud Management (when NOT
+FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
+managed by FortiGate)*
+FortiCare Premium FC-10-P221K-247-02-DD FC-10-P231K-247-02-DD FC-10-P23JK-247-02-DD
+FortiCare Elite FC-10-P221K-284-02-DD FC-10-P231K-284-02-DD FC-10-P23JK-284-02-DD
+FortiCare Essential FC-10-P221K-314-02-DD FC-10-P231K-314-02-DD FC-10-P23JK-314-02-DD
 * FortiCare is included in the FortiEdge Cloud Management license.
 14
 
@@ -706,9 +714,9 @@ FortiCare Essential FC-10-P231K-314-02-DD FC-10-P23JK-314-02-DD
 
 **Table 14.2**
 
-| FORTIAP | FAP-231K | FAP-23JK |
-| --- | --- | --- |
-| STANDARD |  |  |
+| FORTIAP | FAP-221K | FAP-231K | FAP-23JK |
+| --- | --- | --- | --- |
+| STANDARD |  |  |  |
 
 
 **Table 14.3**
@@ -720,42 +728,44 @@ FortiCare Essential FC-10-P231K-314-02-DD FC-10-P23JK-314-02-DD
 
 FortiGate Secure LAN Controller Ordering Guide
 FortiAP
-FORTIAP FAP-432G FAP-234G
+FORTIAP FAP-432G FAP-244K FAP-234G
 STANDARD
-Wi-Fi Generation 6E 6E
-MIMO/Antennas 4x4 External 2x2, External
-Use Outdoor Outdoor
-Majority of clients Phones/Tablets, all Phones/Tablets, all
-Radios 3 3
-Ethernet ports 1 x 10GE, 1GE 1x 5GE, 1GE
-PoE (802.3xx) bt bt
-Hardware FAP-432G-suffix* FAP-234F-suffix*
-NB - no license required for FortiGate management — —
-FortiEdge Cloud Management (when NOT managed by
-FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
-FortiGate)*
-FortiCare Premium FC-10-P432G-247-02-DD FC-10-P234G-247-02-DD
-FortiCare Elite FC-10-P432G-284-02-DD FC-10-P234G-284-02-DD
-FortiCare Essential FC-10-P432G-314-02-DD FC-10-P234G-314-02-DD
-UTP Subscription FC-10-APGIS-768-02-DD FC-10-APGIS-768-02-DD
+Wi-Fi Generation 6E 7 6E
+MIMO/Antennas 4x4 External 2x2, External 2x2, External
+Use Outdoor Outdoor Outdoor
+Majority of clients Phones/Tablets, all Phones/Tablets, all Phones/Tablets, all
+Radios 3 4 3
+Ethernet ports 1 x 10GE, 1GE 1x 5GE, 1x 10G SFP+ 1x 5GE, 1GE
+PoE (802.3xx) bt bt bt
+Hardware FAP-432G-suffix* FAP-234F-suffix* FAP-234F-suffix*
+NB - no license required for FortiGate
+— — —
+management
+FortiEdge Cloud Management (when NOT
+FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
+managed by FortiGate)*
+FortiCare Premium FC-10-P432G-247-02-DD FC-10-F244K-247-02-DD FC-10-P234G-247-02-DD
+FortiCare Elite FC-10-P432G-284-02-DD FC-10- F244K -284-02-DD FC-10-P234G-284-02-DD
+FortiCare Essential FC-10-P432G-314-02-DD FC-10- F244K -314-02-DD FC-10-P234G-314-02-DD
+UTP Subscription FC-10-APGIS-768-02-DD FC-10-APGIS-768-02-DD FC-10-APGIS-768-02-DD
 * FortiCare is included in the FortiEdge Cloud Management license.
-FORTIAP FAP-831F FAP-432FR
+FORTIAP FAP-222KL FAP-432FR
 STANDARD
-Wi-Fi Generation 6 6
-MIMO/Antennas 8x8, internal 4x4 External
-Use stadium/auditorium Outdoor/Hazardous
-Majority of clients Phones/Tablets, all Laptops, all
-Radios 3 3
-Ethernet ports 1 x 5GE, 1GE 1 x 2.5GE, 1GE
-PoE (802.3xx) 2at/bt (30W) bt
-Hardware FAP-831F-suffix* FAP-432FR-suffix*
+Wi-Fi Generation 7 6
+MIMO/Antennas 2x2, External 4x4 External
+Use Outdoor Outdoor/Hazardous
+Majority of clients OT Devices/Phones/Tablets, all Laptops, all
+Radios 2 3
+Ethernet ports 1x 2.5GE, 1x 1GE 1 x 2.5GE, 1GE
+PoE (802.3xx) 802.3bt bt
+Hardware FAP-222KL-suffix* FAP-432FR-suffix*
 NB - no license required for FortiGate management — —
 FortiEdge Cloud Management (when NOT managed by
 FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
 FortiGate)*
-FortiCare Premium FC-10-F831F-247-02-DD FC-10-PF432-247-02-DD
-FortiCare Elite FC-10-P831F-284-02-DD FC-10-PF432-284-02-DD
-FortiCare Essential FC-10-P831F-314-02-DD FC-10-FR432-314-02-DD
+FortiCare Premium FC-10-F22KL-247-02-DD FC-10-PF432-247-02-DD
+FortiCare Elite FC-10- F22KL-284-02-DD FC-10-PF432-284-02-DD
+FortiCare Essential FC-10- F22KL-314-02-DD FC-10-FR432-314-02-DD
 * FortiCare is included in the FortiEdge Cloud Management license.
 * FortiAP country code explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiAP models based upon country
@@ -766,14 +776,14 @@ of deployment. Work with your local supplier for the correct model in your regul
 
 **Table 15.1**
 
-| FORTIAP | FAP-432G | FAP-234G |
-| --- | --- | --- |
-| STANDARD |  |  |
+| FORTIAP | FAP-432G | FAP-244K | FAP-234G |
+| --- | --- | --- | --- |
+| STANDARD |  |  |  |
 
 
 **Table 15.2**
 
-| FORTIAP | FAP-831F | FAP-432FR |
+| FORTIAP | FAP-222KL | FAP-432FR |
 | --- | --- | --- |
 | STANDARD |  |  |
 
@@ -825,14 +835,14 @@ of deployment. Work with your local supplier for the correct model in your regul
 
 FortiGate Secure LAN Controller Ordering Guide
 FortiSwitch
-FORTISWITCH 100 SERIES 200 SERIES 400 SERIES 500 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
-Main Port Speed 1G/2.5G/5G 1 Gbps 1 Gbps 1 Gbps 1G/2.5G/5G 10/40 Gbps 10/25 Gbps 40/100 Gbps
+FORTISWITCH 100 SERIES 200 SERIES 300 SERIES 400 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
+Main Port Speed 1G/2.5G/5G 1 Gbps 1G/2.5G 1 Gbps 1G/2.5G/5G 10/40 Gbps 10/25 Gbps 40/100 Gbps
 Main Port Count
-8, 24, 48 24, 48 24, 48 24, 48 24, 48 24, 48 48 32
+8, 24, 48 24, 48 48 24, 48 24, 48 24, 48 48 32
 Options
-Uplink Port Speed 1 or 10 Gbps 1 Gbps 10 Gbps 10 Gbps 25 Gbps 40 or 100 Gbps 40 or 100 Gbps n/a
+Uplink Port Speed 1 or 10 Gbps 1 Gbps 10Gbps 10 Gbps 25 Gbps 40 or 100 Gbps 40 or 100 Gbps n/a
 Redundant Power
-n/a Some Models Some Models Optional PSU Yes Yes Yes Yes
+n/a Some Models Yes Some Models Yes Yes Yes Yes
 Supplieas
 PoE Options Yes Yes Yes Yes Yes Yes n/a n/a
 EXAMPLES FULL POE FORTISWITCHES
@@ -846,6 +856,7 @@ FortiCare Elite
 02-DD
 FortiCare FC-10-F108F-314-
 Essential 02-DD
+FORTISWITCH 100 SERIES 200 SERIES 300 SERIES 400 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
 10-port FPoE
 Hardware Bundle FS-110G-FPOE
 FC-10-M10GF-
@@ -856,6 +867,7 @@ FortiCare Elite
 284-02-DD
 FortiCare FC-10-M10GF-
 Essential 314-02-DD
+FORTISWITCH 100 SERIES 200 SERIES 300 SERIES 400 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
 24-port FPoE
 FS-124F-FPOE
 Hardware Bundle FS-224D-FPOE FS-M426E-FPOE FS-624F-FPOE FS-T1024F-FPOE
@@ -874,27 +886,46 @@ FC-10-S124F-314-
 FortiCare 02-DD FC-10-W0226- FC-10-M426E- FC-10-624FF-314- FC-10-TF124-314-
 Essential FC-10-S24GF- 314-02-DD 314-02-DD 02-DD 02-DD
 314-02-DD
+FORTISWITCH 100 SERIES 200 SERIES 300 SERIES 400 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
 48-port FPoE
-Hardware Bundle FS-148F-FPOE FS-248E-FPOE FS-448E-FPOE FS-548D-FPOE FS-648F-FPOE
-FC-10-148FF-247- FC-10-W248E- FC-10-S448F- FC-10-W0501- FC-10-648FF-247-
+Hardware Bundle FS-148F-FPOE FS-248E-FPOE FS-348G-FPOE FS-648F-FPOE
+FC-10-148FF-247- FC-10-W248E- FC-10-348GF- FC-10-648FF-247-
 FortiCare Premium
-02-DD 247-02-DD 247-02-DD 247-02-DD 02-DD
-FC-10-148FF-284- FC-10-W248E- FC-10-S448F- FC-10-W0501- FC-10-648FF-
+02-DD 247-02-DD 247-02-DD 02-DD
+FC-10-148FF-284- FC-10-W248E- FC-10-348GF- FC-10-648FF-
 FortiCare Elite
-02-DD 284-02-DD 284-02-DD 284-02-DD 284-02-DD
-FortiCare FC-10-148FF-314- FC-10-W248E- FC-10-S448F-314- FC-10-W0501- FC-10-648FF-314-
-Essential 02-DD 314-02-DD 02-DD 314-02-DD 02-DD
+02-DD 284-02-DD 284-02-DD 284-02-DD
+FortiCare FC-10-148FF-314- FC-10-W248E- FC-10-348GF- FC-10-648FF-314-
+Essential 02-DD 314-02-DD 314-02-DD 02-DD
 17
 
 
 **Table 17.1**
 
-| FORTISWITCH | 100 SERIES | 200 SERIES | 400 SERIES | 500 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
+| FORTISWITCH | 100 SERIES | 200 SERIES | 300 SERIES | 400 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |  |  |  |
 
 
 **Table 17.2**
+
+| FORTISWITCH | 100 SERIES | 200 SERIES | 300 SERIES | 400 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+**Table 17.3**
+
+| FORTISWITCH | 100 SERIES | 200 SERIES | 300 SERIES | 400 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+**Table 17.4**
+
+| FORTISWITCH | 100 SERIES | 200 SERIES | 300 SERIES | 400 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+**Table 17.5**
 
 |  |  |  |
 | --- | --- | --- |
@@ -902,15 +933,15 @@ Essential 02-DD 314-02-DD 02-DD 314-02-DD 02-DD
 |  |  |  |
 
 FortiGate Secure LAN Controller Ordering Guide
-FORTISWITCH 100 SERIES 200 SERIES 400 SERIES 500 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
+FORTISWITCH 100 SERIES 200 SERIES 300 SERIES 400 SERIES 600 SERIES 1000 SERIES 2000 SERIES 3000 SERIES
 NB - no license
 required for
-— — — — — — — —
+— — — — — — —
 FortiGate
 management
 FortiEdge Cloud
 Management
-FC-10-FSW00- FC-10-FSW10- FC-10-FSW10- FC-10-FSW20- FC-10-FSW20- FC-10-FSW30- FC-10-FSW30- FC-10-FSW30-
+FC-10-FSW00- FC-10-FSW10- FC-10-FSW10- FC-10-FSW10- FC-10-FSW20- FC-10-FSW30- FC-10-FSW30- FC-10-FSW30-
 (when not
 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD
 managed by
@@ -956,7 +987,7 @@ Visit https://www.fortinet.com/resources/ordering-guides for related ordering gu
 
 **Table 18.1**
 
-| FORTISWITCH | 100 SERIES | 200 SERIES | 400 SERIES | 500 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
+| FORTISWITCH | 100 SERIES | 200 SERIES | 300 SERIES | 400 SERIES | 600 SERIES | 1000 SERIES | 2000 SERIES | 3000 SERIES |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 
@@ -1036,4 +1067,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-SLC-OG-R13-20260408
+SLC-OG-R16-20260730
