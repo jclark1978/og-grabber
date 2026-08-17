@@ -462,5 +462,5 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-July 7, 2026 3:41 PM
-FSR-OG-R21-20260707
+August 12, 2026 8:47 AM
+FSR-OG-R22-20260812
