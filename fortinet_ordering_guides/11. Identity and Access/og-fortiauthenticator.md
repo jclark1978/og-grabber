@@ -398,9 +398,10 @@ maintenance, hardware failure, or upgrades affecting the primary
 appliance.
 Provides firmware updates, security patches, and 24x7 technical
 3 year FortiCare support for
-FortiCare Premium Support FC1-10-AC8HF-247-03-12 1 support. Ensures the authentication infrastructure remains secure,
+1 support. Ensures the authentication infrastructure remains secure,
 FAC-300F
-supported, and operational throughout the deployment lifecycle.
+FortiCare Premium Support FC1-10-AC8HF-247-03-12 supported, and operational throughout the deployment lifecycle.
++1 Support for HA appliance Each appliance in the HA cluster requires its own support contract.
 Provides physical one-time-password MFA tokens for higher-risk
 users such as administrators, executives, or users without mobile
 FortiToken Hardware Tokens FortiToken-200B 1 500 pack hardware OTP tokens
@@ -786,4 +787,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FAC-OG-R22-20260527
+FAC-OG-R23-20260806
