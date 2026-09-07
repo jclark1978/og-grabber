@@ -51,10 +51,12 @@ HARDWARE
 FPA-400G Small Form factor Privileged Access Management server for up to 25 users.
 FC-10-PA4HG-681-02-DD Antivirus and Data Leak Prevention protection
 FC-10-PA4HG-247-02-DD FortiCare Premium Support
-FortiPAM 400G FC-10-PA4HG-210-02-DD Next Calendar Day Delivery Priority RMA Service (Requires FortiCare Premium or FortiCare Elite)
+FC-10-PA4HG-210-02-DD Next Calendar Day Delivery Priority RMA Service (Requires FortiCare Premium or FortiCare Elite)
+FortiPAM 400G
 FC-10-PA4HG-211-02-DD 4-Hour Hardware Delivery Priority RMA Service (Requires FortiCare Premium or FortiCare Elite)
 FC-10-PA4HG-212-02-DD 4-Hour Hardware and Onsite Engineer Priority RMA Service (Requires FortiCare Premium or FortiCare Elite)
 FC-10-PA4HG-301-02-DD Secure RMA Service
+SP-FAC300G-PS FortiPAM 400G Field replaceable Redundant PSU
 FPA-1000G FortiPAM-1000G Privileged Access Management server for up to 50 users.
 FC-10-PA1KG-681-02-DD Antivirus and Data Leak Prevention protection
 FC-10-PA1KG-247-02-DD FortiCare Premium Support
@@ -272,4 +274,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FPA-OG-R13-20260713
+FPA-OG-R14-20260825

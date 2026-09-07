@@ -186,7 +186,7 @@ Mid Range Bundles
 FORTIGATE 120G 200G 400G 700G 900G
 ENTERPRISE BUNDLE
 Hardware Bundle FG-120G-BDL-809-DD FG-200G-BDL-809-DD FG-400G-BDL-809-DD FG-700G-BDL-809-DD FG-900G-BDL-809-DD
-FC-10-F200G-809- FC-10-0400G-809- FC-10-0700G-809- FC-10-0900G-809-
+FC-10-F200G-809- FC-10-FG4H0-809- FC-10-0700G-809- FC-10-0900G-809-
 Renewal FC-10-F120G-809-02-DD
 02-DD 02-DD 02-DD 02-DD
 UTP BUNDLE
@@ -516,7 +516,7 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-PFW-OG-R28-20260707
+PFW-OG-R29-20260828
 
 
 **Table 9.1**
