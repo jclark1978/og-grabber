@@ -4,103 +4,126 @@ Ordering Guide
 FortiEndpoint
 Unified Endpoint Solution Platform
 FortiEndpoint is a unified endpoint management platform built on Zero Trust principles,
-designed to secure a wide range of devices - including desktops, laptops, smartphones,
-and tablets - through a single integrated system. By consolidating multiple endpoint
-security functions like Secure Access, Anti-Malware and Endpoint Detection & Response
-(EDR) capabilities into one lightweight agent and one management console, it simplifies
-administration while strengthening an organization’s overall security posture.
+designed to protect a broad range of devices—including desktops, laptops, smartphones,
+and tablets—through a single, integrated solution. By consolidating multiple endpoint
+security capabilities into ONE lightweight agent, ONE centralized management console
+and ONE license. FortiEndpoint simplifies administration, reduces operational complexity,
+and strengthens an organization’s overall security posture.
 Product Offerings
-Comprehensive Features: Provides Zero Trust-based remote access, advanced
-real-time anti-malware protection, and automated Endpoint Detection and Response
-(EDR) capabilities to detect, neutralize, and remediate threats - along with integrated
-vulnerability management and endpoint forensics.
-Centralized Management: FortiClient Cloud provides a unified console for agent
-management, endpoint feature configuration, threat monitoring, vulnerability
-management, endpoint activity & events, threat hunting and incident response.
-Ordering structure: Following license tiers are available Zero Trust Connect, EPP, EDR
-and XDR. We offer both DIY and Managed Services.
+Comprehensive Features: Provides a comprehensive, Zero Trust-based security solution that
+combines secure remote access, vulnerability management, endpoint posture assessment,
+attack surface management, malware protection, forensic analysis, endpoint detection and
+response (EDR), and endpoint data protection within a single platform.
+Centralized Management: The FortiEndpoint Platform provides a centralized console for unified
+agent management and endpoint configuration, enabling organizations to monitor threats,
+manage vulnerabilities, track endpoint activities and events, conduct threat hunting, and respond
+to incidents. It also delivers AI application visibility and governance, data classification, data loss
+prevention (DLP), and insider threat protection—all through a single integrated platform.
+Branding: FortiEndpoint is the unified endpoint solution that brings together the capabilities of
+FortiClient, FortiEDR, and FortiDLP into a single agent, centralized management console, and
+unified license.
 
 FortiEndpoint Ordering Guide
 Product Offerings
-ZERO TRUST CONNECT/PREVENT EPP EDR XDR
+ZERO TRUST
+PROTECT CORE PROTECT PLUS PROTECT XDR PROTECT DATA COMPLETE
+CONNECT
 FEATURES
 ZERO TRUST CONNECTIVITY
-ZTNA Agent ⃝✓ ⃝✓ ⃝✓ ⃝✓
-VPN ⃝✓ ⃝✓ ⃝✓ ⃝✓
-Vulnerability Scan and
-⃝✓ ⃝✓ ⃝✓ ⃝✓
-Remediation
-FortiGuard Web and Video
-⃝✓ ⃝✓ ⃝✓ ⃝✓
-Filtering
-API-based and Inline CASB
-⃝✓ ⃝✓ ⃝✓ ⃝✓
-(Saas)
-ENDPOINT PROTECTION PLATFORM (EPP)
-EPP ⃝✓ ⃝✓ ⃝✓
-Sandbox ⃝✓ ⃝✓ ⃝✓
-EXTENDED DETECTION & RESPONSE (EDR/XDR)
-Discover ⃝✓ ⃝✓
-Protect ⃝✓ ⃝✓
-Respond ⃝✓ ⃝✓
-XDR ⃝✓
-CENTRAL LOGGING AND REPORTING
-FortiAnalyzer Cloud (SaaS)* ⃝✓ ⃝✓ ⃝✓ ⃝✓
+ZTNA Agent ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+VPN ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+API-based and Inline CASB (Saas) ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+ENDPOINT SECURITY
+EPP ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Sandbox ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Vulnerability Scan and Remediation ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiGuard Web and Video Filtering ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+AI Application Visibility & Governance ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+EDR: Discover + Protect + Respond ✓⃝ ✓⃝ ✓⃝
+Threat Hunting ✓⃝ ✓⃝ ✓⃝
+XDR ✓⃝ ✓⃝
+DATA PROTECTION
+Data Leak protection (DLP) ✓⃝ * ✓⃝ ✓⃝ ✓⃝ ✓⃝
+DLP Advanced with Insider Risk ✓⃝ ✓⃝
+SaaS Application Integration ✓⃝ ✓⃝
+GenAI Application Inventory with Data
+✓⃝ ✓⃝
+Protection
+Incident Management and Forensic
+✓⃝ ✓⃝
+Activity Timeline
+SECURITY OPERATIONS
+FortiGuard Endpoint Forensics
+✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Service
+Incident Response Service Optional Optional Optional Optional Optional Optional
+SOCaaS**** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiAnalyzer Cloud (SaaS)** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 ADDITIONAL SERVICES
-Best Practice Service (BPS)
-Optional account add-on Optional account add-on Mandatory account add-on Mandatory account add-on
-Consultation
-* FortiAnalyzer Cloud does not support EDR logs.
-** BPS is mandatory for all solutions that include EDR.
+FortiIdentity Cloud Basic ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Best Practice Service (BPS) Optional account Optional account Optional account Optional account Optional account Optional account
+Consultation*** add-on add-on add-on add-on add-on add-on
+* Basic DLP features are included
+** FortiAnalyzer Cloud does not support EDR logs.
+*** BPS is mandatory for all solutions that include EDR.
+**** Only for Endpoint Security features
 Order Information
-SOLUTION ZERO TRUST CONNECT/PREVENT EPP EDR XDR
-25-49 FC1-10-EMS05-1045-02-DD FC1-10-EMS05-1046-02-DD FC1-10-EMS05-1040-02-DD FC1-10-EMS05-1041-02-DD
-50-499 FC2-10-EMS05-1045-02-DD FC2-10-EMS05-1046-02-DD FC2-10-EMS05-1040-02-DD FC2-10-EMS05-1041-02-DD
-DIY 500-1999 FC3-10-EMS05-1045-02-DD FC3-10-EMS05-1046-02-DD FC3-10-EMS05-1040-02-DD FC3-10-EMS05-1041-02-DD
-2000-9999 FC4-10-EMS05-1045-02-DD FC4-10-EMS05-1046-02-DD FC4-10-EMS05-1040-02-DD FC4-10-EMS05-1041-02-DD
-10000+ FC5-10-EMS05-1045-02-DD FC5-10-EMS05-1046-02-DD FC5-10-EMS05-1040-02-DD FC5-10-EMS05-1041-02-DD
+SOLUTION ZERO TRUST CONNECT PROTECT CORE PROTECT PLUS
+25-499 FC2-10-EMS05-1406-02-DD FC2-10-EMS05-1344-02-DD FC2-10-EMS05-1345-02-DD
+500-4,999 FC3-10-EMS05-1406-02-DD FC3-10-EMS05-1344-02-DD FC3-10-EMS05-1345-02-DD
+5,000+ FC4-10-EMS05-1406-02-DD FC4-10-EMS05-1344-02-DD FC4-10-EMS05-1345-02-DD
+DIY PROTECT XDR DATA PROTECT COMPLETE
+25-499 FC2-10-EMS05-1346-02-DD FC2-10-EMS05-1347-02-DD FC2-10-EMS05-1348-02-DD
+500-4,999 FC3-10-EMS05-1346-02-DD FC3-10-EMS05-1347-02-DD FC3-10-EMS05-1348-02-DD
+5,000+ FC4-10-EMS05-1346-02-DD FC4-10-EMS05-1347-02-DD FC4-10-EMS05-1348-02-DD
 2
 
 
 **Table 2.1**
 
-|  | ZERO TRUST CONNECT/PREVENT | EPP | EDR | XDR |
-| --- | --- | --- | --- | --- |
-| FEATURES |  |  |  |  |
-| ZERO TRUST CONNECTIVITY |  |  |  |  |
+|  | ZERO TRUST CONNECT | PROTECT CORE | PROTECT PLUS | PROTECT XDR | PROTECT DATA | COMPLETE |
+| --- | --- | --- | --- | --- | --- | --- |
+| FEATURES |  |  |  |  |  |  |
+| ZERO TRUST CONNECTIVITY |  |  |  |  |  |  |
 
 
 **Table 2.2**
 
-| ENDPOINT PROTECTION PLATFORM (EPP) |  |  |  |
-| --- | --- | --- | --- |
+| ENDPOINT SECURITY |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 2.3**
 
-| EXTENDED DETECTION & RESPONSE (EDR/XDR) |  |  |  |
-| --- | --- | --- | --- |
+| DATA PROTECTION |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 2.4**
 
-| CENTRAL LOGGING AND REPORTING |  |  |  |
-| --- | --- | --- | --- |
+| SECURITY OPERATIONS |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 2.5**
 
-| ADDITIONAL SERVICES |  |  |  |  |
-| --- | --- | --- | --- | --- |
+| ADDITIONAL SERVICES |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
 
 
 **Table 2.6**
 
-| SOLUTION | ZERO TRUST CONNECT/PREVENT | EPP | EDR | XDR |
-| --- | --- | --- | --- | --- |
+| SOLUTION | ZERO TRUST CONNECT | PROTECT CORE | PROTECT PLUS |
+| --- | --- | --- | --- |
 
 
 **Table 2.7**
+
+|  | PROTECT XDR | DATA PROTECT | COMPLETE |
+| --- | --- | --- | --- |
+
+
+**Table 2.8**
 
 |  |  |  |
 | --- | --- | --- |
@@ -109,121 +132,159 @@ DIY 500-1999 FC3-10-EMS05-1045-02-DD FC3-10-EMS05-1046-02-DD FC3-10-EMS05-1040-0
 
 FortiEndpoint Ordering Guide
 Product Offerings - Managed Options
-EPP EDR XDR
+PROTECT CORE PROTECT PLUS PROTECT XDR PROTECT DATA COMPLETE
 FEATURES
 ZERO TRUST CONNECTIVITY
-ZTNA Agent ⃝✓ ⃝✓ ⃝✓
-VPN ⃝✓ ⃝✓ ⃝✓
-Vulnerability Scan and Remediation ⃝✓ ⃝✓ ⃝✓
-FortiGuard Web and Video Filtering ⃝✓ ⃝✓ ⃝✓
-API-based and Inline CASB (Saas) ⃝✓ ⃝✓ ⃝✓
-ENDPOINT PROTECTION PLATFORM (EPP)
-EPP ⃝✓ ⃝✓ ⃝✓
-Sandbox ⃝✓ ⃝✓ ⃝✓
-EXTENDED DETECTION & RESPONSE (EDR/XDR)
-Discover ⃝✓ ⃝✓
-Protect ⃝✓ ⃝✓
-Respond ⃝✓ ⃝✓
-XDR ⃝✓
-SECURITY OPERATIONS CENTER (SOC)
-Forensics ⃝✓ ⃝✓ ⃝✓
-SOCaaS ⃝✓ ⃝✓ ⃝✓
-DEPLOYMENT
-Managed ⃝✓ ⃝✓ ⃝✓
-CENTRAL LOGGING AND REPORTING
-FortiAnalyzer Cloud (SaaS)* ⃝✓ ⃝✓ ⃝✓
-ADDITIONAL SERVICES
-Best Practice Service (BPS) Consultation** Account add-on Account add-on Account add-on
-* FortiAnalyzer Cloud does not support EDR logs.
-** BPS is mandatory for all solutions that include EDR.
-ORDER INFORMATION
-SOLUTION EPP EDR XDR
-25-49 FC1-10-EMS05-1048-02-DD FC1-10-EMS05-1043-02-DD FC1-10-EMS05-1044-02-DD
-50-499 FC2-10-EMS05-1048-02-DD FC2-10-EMS05-1043-02-DD FC2-10-EMS05-1044-02-DD
-Managed 500-1999 FC3-10-EMS05-1048-02-DD FC3-10-EMS05-1043-02-DD FC3-10-EMS05-1044-02-DD
-2000-9999 sFC4-10-EMS05-1048-02-DD FC4-10-EMS05-1043-02-DD FC4-10-EMS05-1044-02-DD
-10000+ FC5-10-EMS05-1048-02-DD FC5-10-EMS05-1043-02-DD FC5-10-EMS05-1044-02-DD
-Order Information - BPS
-BPS is mandatory for all solutions that include EDR.
-SOLUTION ZERO TRUST CONNECT/PREVENT EDR XDR
-Up to 999 FC1-10-FCBPS-310-02-DD FC1-10-UABPS-310-02-DD FC1-10-UABPS-310-02-DD
-DIY 1000-9999 FC2-10-FCBPS-310-02-DD FC2-10-UABPS-310-02-DD FC2-10-UABPS-310-02-DD
-10000+ FC5-10-FCBPS-310-02-DD FC3-10-UABPS-310-02-DD FC3-10-UABPS-310-02-DD
-FortiCare Best
-Practices Consultation EPP XDR
+ZTNA Agent ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+VPN ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+API-based and Inline CASB (Saas) ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+ENDPOINT SECURITY
+EPP ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Sandbox ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Vulnerability Scan and Remediation ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiGuard Web and Video Filtering ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+AI Application Visibility & Governance ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+EDR: Discover + Protect + Respond ✓⃝ ✓⃝ ✓⃝
+Threat Hunting ✓⃝ ✓⃝ ✓⃝
+XDR ✓⃝ ✓⃝
+DATA PROTECTION
+Data Leak protection (DLP) ✓⃝ * ✓⃝ ✓⃝ ✓⃝ ✓⃝
+DLP Advanced with Insider Risk ✓⃝ ✓⃝
+SaaS Application Integration ✓⃝ ✓⃝
+GenAI Application Inventory with Data
+✓⃝ ✓⃝
+Protection
+Incident Management and Forensic
+✓⃝ ✓⃝
+Activity Timeline
+SECURITY OPERATIONS
+FortiGuard Endpoint Forensics
+✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 Service
-Up to 999 FC1-10-FCBPS-310-02-DD FC1-10-UABPS-310-02-DD
-Managed 1000-9999 FC2-10-FCBPS-310-02-DD FC2-10-UABPS-310-02-DD
-10000+ FC5-10-FCBPS-310-02-DD FC3-10-UABPS-310-02-DD
+Incident Response Service ✓⃝ ✓⃝ ✓⃝ ✓⃝l ✓⃝
+SOCaaS ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiAnalyzer Cloud (SaaS)** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+DEPLOYMENT
+Managed Service ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+ADDITIONAL SERVICES
+FortiIdentity Cloud Basic ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Best Practice Service (BPS)
+✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+Consultation***
+* Basic DLP features are included
+** FortiAnalyzer Cloud does not support EDR logs.
+*** BPS is mandatory for all solutions that include EDR.
+Order Information
+SOLUTION PROTECT CORE PROTECT PLUS PROTECT XDR
+25-499 FC2-10-EMS05-1349-02-DD FC2-10-EMS05-1350-02-DD FC2-10-EMS05-1351-02-DD
+500-4,999 FC3-10-EMS05-1349-02-DD FC3-10-EMS05-1350-02-DD FC3-10-EMS05-1351-02-DD
+5,000+ FC4-10-EMS05-1349-02-DD FC4-10-EMS05-1350-02-DD FC4-10-EMS05-1351-02-DD
+DIY DATA PROTECT COMPLETE
+25-499 FC2-10-EMS05-1352-02-DD FC2-10-EMS05-1353-02-DD
+500-4,999 FC3-10-EMS05-1352-02-DD FC3-10-EMS05-1353-02-DD
+5,000+ FC4-10-EMS05-1352-02-DD FC4-10-EMS05-1353-02-DD
 3
 
 
 **Table 3.1**
 
-|  | EPP | EDR | XDR |
-| --- | --- | --- | --- |
-| FEATURES |  |  |  |
-| ZERO TRUST CONNECTIVITY |  |  |  |
+|  | PROTECT CORE | PROTECT PLUS | PROTECT XDR | PROTECT DATA | COMPLETE |
+| --- | --- | --- | --- | --- | --- |
+| FEATURES |  |  |  |  |  |
+| ZERO TRUST CONNECTIVITY |  |  |  |  |  |
 
 
 **Table 3.2**
 
-| ENDPOINT PROTECTION PLATFORM (EPP) |  |  |  |
-| --- | --- | --- | --- |
+| ENDPOINT SECURITY |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 3.3**
 
-| EXTENDED DETECTION & RESPONSE (EDR/XDR) |  |  |
-| --- | --- | --- |
+| DATA PROTECTION |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 3.4**
 
-| SECURITY OPERATIONS CENTER (SOC) |  |  |  |
-| --- | --- | --- | --- |
+| SECURITY OPERATIONS |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 
 **Table 3.5**
 
-| DEPLOYMENT |  |  |
-| --- | --- | --- |
+| DEPLOYMENT |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+|  | ✓⃝ | ✓⃝ | ✓⃝ | ✓⃝ | ✓⃝ |
+| ADDITIONAL SERVICES |  |  |  |  |  |
 
 
 **Table 3.6**
 
-| CENTRAL LOGGING AND REPORTING |  |  |  |
+| SOLUTION | PROTECT CORE | PROTECT PLUS | PROTECT XDR |
 | --- | --- | --- | --- |
 
 
 **Table 3.7**
 
-| ADDITIONAL SERVICES |  |  |  |
+|  | DATA PROTECT | COMPLETE |  |
 | --- | --- | --- | --- |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 
 **Table 3.8**
 
-| SOLUTION | EPP | EDR | XDR |
-| --- | --- | --- | --- |
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
+FortiEndpoint Ordering Guide
+Order Information - BPS
+BPS is mandatory for all solutions that include EDR.
+SOLUTION ZERO TRUST CONNECT PROTECT CORE * PROTECT PLUS
+25-499 FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
+500-4,999 FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
+FortiCare Best 5,000+ FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
+Practices
+DIY PROTECT XDR DATA PROTECT COMPLETE
+Consultation
+Service 25-499 FCx-10-UABPS-310-02-DD FCx-10-UABPS-310-02-DD FCx-10-UABPS-1354-02-DD
+500-4,999 FCx-10-UABPS-310-02-DD FCx-10-UABPS-310-02-DD FCx-10-UABPS-1354-02-DD
+5,000+ FCx-10-UABPS-310-02-DD FCx-10-UABPS-310-02-DD FCx-10-UABPS-1354-02-DD
+* DLP Onboarding is not included as part of BPS. Buy FCx-10-UABPS-310-02-DD instead if DLP onboarding is also needed.
+Order Information
+SOLUTION SKU
+FortiEndpoint NFR License For 10 Test Users FC1-10-EMS05-1250-02-DD
+FortiEndpoint EDR Additional Storage Additional 512GB data retention storage FC1-10-EMS05-1112-02-DD
+4
 
 
-**Table 3.9**
+**Table 4.1**
 
-| SOLUTION | ZERO TRUST CONNECT/PREVENT | EDR | XDR |
-| --- | --- | --- | --- |
-
-
-**Table 3.10**
-
-|  |  | EPP | XDR |  |
+| SOLUTION |  | ZERO TRUST CONNECT | PROTECT CORE * | PROTECT PLUS |
 | --- | --- | --- | --- | --- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
 
 
-**Table 3.11**
+**Table 4.2**
+
+|  | PROTECT XDR | DATA PROTECT | COMPLETE |
+| --- | --- | --- | --- |
+|  |  |  | FCx-10-UABPS-1354-02-DD |
+|  |  |  | FCx-10-UABPS-1354-02-DD |
+|  |  |  | FCx-10-UABPS-1354-02-DD |
+
+
+**Table 4.3**
+
+| SOLUTION |  | SKU |
+| --- | --- | --- |
+
+
+**Table 4.4**
 
 |  |  |  |
 | --- | --- | --- |
@@ -243,14 +304,14 @@ Can an existing FortiEDR customer get a FortiEndpoint license?
 No, currently FortiEndpoint does not support upgrading from the current FortiEDR solution. It is for new customers only, as a
 fresh EDR instance will be provisioned.
 Is FortiAnalyzer Cloud going to be available for the unified agent solution?
-FortiEndpoint is a cloud-focused solution, so we will be updating the entitlement in the mid-Q4 2024 PL to include FortiAnalyzer
-Cloud for all FortiEndpoint license tiers.
+FortiEndpoint is a cloud-focused solution, so we will be updating the entitlement in the mid-Q4 2024 PL to include
+FortiAnalyzer Cloud for all FortiEndpoint license tiers.
 Can we mix and match different SKUs on the same EMS?
 No, SKU mix and match is not supported.
 I have an existing FortiClient Cloud license. Can I migrate to FortiEndpoint license?
 Yes, customers with a FortiClient Cloud license can upgrade to a FortiEndpoint license SKU through Co-term. Since
-FortiEndpoint is built on FortiClient Cloud, the license migration is seamless—no data or configuration will be lost, and all existing
-FortiClient Cloud data will remain intact.
+FortiEndpoint is built on FortiClient Cloud, the license migration is seamless—no data or configuration will be lost, and all
+existing FortiClient Cloud data will remain intact.
 I have FortiClient EMS on-prem. Can I migrate to FortiEndpoint and keep my data?
 Yes, you can open a FortiClient or FortiEndpoint BPS ticket and team can help you with data migration from on-prem to
 FortiEndpoint Cloud.
@@ -261,4 +322,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FEP-OG-R79-202501014
+FEP-OG-R11-20260911

@@ -84,7 +84,7 @@ FortiCare premium.
 Free of charge
 Sensor Virtual Virtual Sensors (VM / KVM / Public Cloud)
 (download from portal)
-FortiAI
+FortiAI tokens for FortiNDR Cloud
 FORTIAI TOKENS TOP-UP LICENSE
 SKU DESCRIPTION
 LIC-FAITOKEN-1M FortiAI-Assist top-up SKU license for adding 1,000,000 AI tokens valid for 3 years.
@@ -162,7 +162,7 @@ also supports high throughput malware scanning with ANN and supports various Fab
 Here is a reference architecture diagram with FortiNDR:
 FortiNDR on-premise hardware and virtual machines can run in three modes:
 • Standalone (VM16, VM32, FortiNDR-1000F, FortiNDR-2500G)
-• Center (supported on FNR-3600G, and Center VM models only)
+• Center (supported on FNR-2500G, FNR-3600G, and Center VM models only)
 • Sensors (VM08, VM16, VM32, FortiNDR-1000F, FortiNDR-2500G)
 Center and sensors modes are used for deploying distributed deployment. See the following table or datasheet for mode
 support for different models.
@@ -181,18 +181,20 @@ FortiNDR Hardware Order Information
 SOLUTION BUNDLE FORTINDR-1000F FORTINDR-2500G FORTINDR-3600G
 Hardware Bundles Hardware Bundle FNR-1000F-BDL-331-DD2 FNR-2500G-BDL-331-DD2 FNR-3600G-BDL-331-DD
 Renewal FC-10-AI1KF-331-02-DD2 FC-10-AI25G-331-02-DD2 FNR-3600G-BDL-1024-DD
-Deploy Mode Standalone, Sensor Standalone, Sensor Center only
-Sensors Managed1 N/A N/A Up to 50
-High Availability Support Active-passive Active-passive
+Deploy Mode Standalone, Sensor Standalone, Sensor, Center Center only
+Sensors Managed1 N/A Up to 10 Up to 50
+Active-passive
+High Availability Support Active-passive
+(standalone mode) Dual center support (center mode)
+(for all models) (standalone mode)
 Dual center support (center mode)
-(for all models) (standalone mode) (standalone mode)
-Netflow Support
-FC-10-AI1KF-588-02-DD2 FC-10-AI25G-588-02-DD2
-(licensed separately)
+Netflow Support FC-10-AI25G-588-02-DD2
+FC-10-AI1KF-588-02-DD2
+(licensed separately) Not required in center mode
 N/A (license on sensors)
-OT Security Services
-FC-10-AI1KF-723-02-DD2 FC-10-AI25G-723-02-DD2
-(licensed separately)
+OT Security Services FC-10-AI25G-723-02-DD2
+FC-10-AI1KF-723-02-DD2
+(licensed separately) Not required in center mode
 PRMA available Available, please refer to price list for PRMA options
 1 For cases that require more than the specified number of sensors, consult your local Fortinet engineering team.
 2 ”DD” specifies the contract length in months. Available terms are 1, 3, and 5 years (i.e. 12, 36, and 60 months). All non-standard terms more than 1 year require co-term
@@ -314,11 +316,11 @@ How is FortiNDR On-premises licensed?
 FortiNDR is licensed based on number of appliance/VM purchased, with additional NetfFlow and OT security services licenses
 on sensors. Center can be purchased to manage/provide single point of view of sensors.
 For central management:
-For FortiNDR On-premise, do I need to purchase an additional license when using FNR-3600G or central management VM as
-a center to manage sensors?
-No. The FNR-3600G or Central Manager VM operates in center mode managing sensors with no additional license required for
-sensor management. Starting v7.6.3 both FNR-3600G and Centralized Management VM supports global investigation which
-provides ability to query network meta data. A demo can be seen here.
+For FortiNDR On-premise, do I need to purchase an additional license when using FNR-2500G, FNR-3600G, or central
+management VM as a center to manage sensors?
+No. The FNR-2500G, FNR-3600G, or Central Manager VM operates in center mode managing sensors with no additional license
+required for sensor management. Starting v7.6.3, all center mode units support global investigation which provides ability to
+query network meta data. A demo can be seen here.
 For FortiNDR On-premise, do I need to purchase a NetFlow license for center management?
 No. NetFlow is licensed on sensors only.
 For FortiNDR On-premise, do I need to purchase an OT license for center management?
@@ -328,6 +330,8 @@ The difference is in the number of devices managed. SKU FC1-10-AIVMC-757-02-DD c
 devices, and SKU SKU FC5-10- AIVMC-757-02-DD can allow management of unlimited sensors.
 For FortiNDR centralized VM center, what if I need an upgrade to manage more than ten sensors?
 You will need to purchase a new subscription of unlimited sensors.
+Does FortiAI Sovereign using GPU on FNR-3600G require any tokens purchase?
+No, FortiAI Sovereign on FNR-3600G has local LLM model which can run without Internet and has unlimited token usage.
 8
 
 
@@ -355,15 +359,15 @@ For prerequisites, agenda topics, and learning objectives, visit:
 FortiNDR On-Premises Administrator:
 https://training.fortinet.com/local/staticpage/view.php?page=library_fortindr-on-premises-administrator
 FortiNDR Cloud Workshop:
-https://training.fortinet.com/local/staticpage/view.php?page=library_fortindr-cloud
+https://training.fortinet.com/local/staticpage/view.php?page=library_fortindr-cloud-analyst
 Training SKUs for FortiNDR and FortiNDR Cloud
 For training SKUs, purchasing, and delivery options, visit:
 https://training.fortinet.com/local/staticpage/view.php?page=purchasing_process
 www.fortinet.com
-Copyright © 2025 Fortinet, Inc. All rights reserved. Fortinet®, FortiGate®, FortiCare® and FortiGuard®, and certain other marks are registered trademarks of Fortinet, Inc., and other Fortinet names herein may also be registered and/or common law trademarks of Fortinet. All other product or
+Copyright © 2026 Fortinet, Inc. All rights reserved. Fortinet®, FortiGate®, FortiCare® and FortiGuard®, and certain other marks are registered trademarks of Fortinet, Inc., and other Fortinet names herein may also be registered and/or common law trademarks of Fortinet. All other product or
 company names may be trademarks of their respective owners. Performance and other metrics contained herein were attained in internal lab tests under ideal conditions, and actual performance and other results may vary. Network variables, different network environments and other condi-
 tions may affect performance results. Nothing herein represents any binding commitment by Fortinet, and Fortinet disclaims all warranties, whether express or implied, except to the extent Fortinet enters a binding written contract, signed by Fortinet’s SVP Legal and above, with a purchaser
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FNDR-OG-R35-20251126
+FNDR-OG-R36-20260831

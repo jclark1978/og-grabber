@@ -185,12 +185,9 @@ Cloud Management and Network Transition Options
 Fewer and fewer networks of any size are deployed as pure greenfield. Most are established and have a refresh cycle with the
 NGFW, Ethernet, and Wi-Fi — all refreshed at different times. Fortinet has options for those who want to transition to our Secure
 LAN solution but are unable to do so all at once.
-FortiEdge Cloud provides central cloud management for FortiAPs, FortiSwitches and FortiExtenders without an onsite FortiGate.
-Fortinet Secure LAN equipment can be deployed to a site and managed in FortiEdge Cloud, and later transitioned to FortiGate in
-the future.
-FortiGate Cloud also provides cloud-based and remote management of FortiGates, and is completely compatible with everything
-above. FortiGate Cloud, via cloud management of a FortiGate, in turn manages the Secure LAN FortiAPs and FortiSwitches.
-FortiGate Cloud also adds one year of cloud log storage and backups, and is included in the FortiGate SMB bundles.
+FortiManagement Cloud is Fortinet’s unified SaaS platform that simplifies administration, enhances visibility, and delivers
+centralized management, security analytics, and operational control for FortiGate, FortiAP, FortiSwitch and FortiExtender devices
+with a single unified cloud console.
 Example Specs/BoMs — FortiGate, FortiAP, FortiSwitch
 NB – these are example BoMs, and should not be used as strict ‘recipes.’ Customer environments vary, and a full network design
 will be necessary to get the right number of FortiAPs, FortiSwitches, ports, and power requirements.
@@ -411,18 +408,24 @@ FG-30G-BDL-809-DD FG-50G-BDL-809-DD FG-80F-BDL-809-DD
 Enterprise Bundle FG-70G-BDL-809-DD FG-90G-BDL-809-DD
 FWF-30G-code*-BDL-809-DD FWF-50G-code*-BDL-809-DD FWF-80F-code*-BDL-809-DD
 Enterprise Renewal FC-10-0030G-809-02-DD FC-10-0050G-809-02-DD FC-10-0070G-809-02-DD FC-10-0080F-809-02-DD FC-10-0090G-809-02-DD
-FortiGate Cloud alone FC-10-0030G-131-02-DD FC-10-0050G-131-02-DD FC-10-0070G-131-02-DD FC-10-0080F-131-02-DD FC-10-0090G-131-02-DD
+FortiManagement Cloud
+FC-10-MGT1G-131-02-DD FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT4G-131-02-DD
+alone
 SELECT BRANCH VARIANTS
 Variant 51G Storage 71G Storage 81F storage 90G storage
 Enterprise Bundle FG-51G-BDL-809-DD FG-71G-BDL-809-DD FG-81F-BDL-809-DD FG-91G-BDL-809-DD
 Enterprise Renewal FC-10-0051G-809-02-DD FC-10-0071G-809-02-DD FC-10-0081F-809-02-DD FC-10-0091G -809-02-DD
-FortiGate Cloud alone FC-10-0051G-131-02-DD FC-10-0071G-131-02-DD FC-10-0081F-131-02-DD FC-10-0091G -131-02-DD
+FortiManagement Cloud
+FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT4G -131-02-DD
+alone
 Variant FortiWiFi 30G FortiWiFi 50G FortiWiFi 70G FortiWiFi 80F-2R
 FWF-80F-2R-code*-BDL-
 Enterprise Bundle FWF-30G-code*-BDL-809-DD FWF-50G-code*-BDL-809-DD FWF-70G-code*-BDL-809-DD
 809-DD
 Enterprise Renewal FC-10-W030G-809-02-DD FC-10-W050G-809-02-DD FC-10-W070G-809-02-DD FC-10-W080F-809-02-DD
-FortiGate Cloud alone FC-10-W030G-131-02-DD FC-10-W050G-131-02-DD FC-10-W070G-131-02-DD FC-10-W080F-131-02-DD
+FortiManagement Cloud
+FC-10-MGT1G-131-02-DD FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT3G-131-02-DD
+alone
 Variant FortiWiFi 51G storage FortiWiFi 71G storage FortiGate 80F-PoE
 FG-80F-POE-BDL-809-DD
 Enterprise Bundle FWF-51G-code*-BDL-809-DD FWF-71G-code*-BDL-809-DD
@@ -430,9 +433,9 @@ FG-81F-POE-BDL-809-DD
 FC-10-F80FP-809-02-DD.
 Enterprise Renewal FC-10-W051G-809-02-DD FC-10-W071G-809-02-DD
 FC-10-F81FP-809-02-DD
-FC-10-F80FP-131-02-DD.
-FortiGate Cloud alone FC-10-W051G-131-02-DD FC-10-W071G-131-02-DD
-FC-10-F81FP-131-02-DD
+FortiManagement Cloud
+FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD FC-10-MGT3G-131-02-DD
+alone
 * FortiWiFi country code suffix explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiWiFi models based upon country of deployment. Work with your local supplier for the
 correct model in your regulatory domain.
@@ -464,7 +467,9 @@ FG-50G-SFP-POE-BDL- FWF-81F-2R-code*-BDL-
 Enterprise Bundle
 809-DD 809-DD
 Enterprise Renewal FC-10-F50GP-809-02-DD FC-10-W081F-809-02-DD
-FortiGate Cloud alone FC-10-F50GP-131-02-DD FC-10-W081F-131-02-DD
+FortiManagement Cloud
+FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD
+alone
 FortiGate 51G-SFP-PoE
 Variant FortiWiFi 80F-PoE
 storage
@@ -472,7 +477,9 @@ FG-51G-SFP-POE-BDL- FWF-81F-2R-POE-code*-
 Enterprise Bundle
 809-DD BDL- 809-DD
 Enterprise Renewal FC-10-F51GP-809-02-DD FC-10-WP81F-809-02-DD
-FortiGate Cloud alone FC-10-F51GP-131-02-DD FC-10-WP81F-131-02-DD
+FortiManagement Cloud
+FC-10-MGT2G-131-02-DD FC-10-MGT3G-131-02-DD
+alone
 FORTIGATE
 FG-120G FG-200G FG-400F FG-600F FG-900G FG-1000F
 APPLIANCES
@@ -490,20 +497,20 @@ Enterprise Bundle FG-120G-BDL-809-DD FG-200G-BDL-809-DD FG-400F-BDL-809-DD FG-60
 FC-10-F120G-809- FC-10-F200G-809- FC-10-0400F-809- FC-10-0600F-809- FC-10-FG9H0-809- FC-10-F1K0F-809-
 Enterprise Renewal
 02-DD 02-DD 02-DD 02-DD 02-DD 02-DD
-FortiGate Cloud
-FC-10-F200G-131- FC-10-FG9H0-131- FC-10-F1K0F-131- 02-
--Management, Analysis, FC-10-F120G-131-02-DD FC-10-0400F-131-02-DD FC-10-0600F-131-02-DD
-02-DD 02-DD DD
+FortiManagement Cloud
+FC-10-MGT4G-131- FC-10-MGT5G-131- FC-10-MGT6G-131- FC-10-MGT6G-131- FC-10-MGT7G-131- FC-10-MGT7G-131-
+-Management, Analysis,
+02-DD 02-DD 02-DD 02-DD 02-DD 02-DD
 1y Log Retention
 Unified Threat Protection Bundle
 UTP Bundle FG-120G-BDL-950-DD FG-200G-BDL-950-DD FG-400F-BDL-950-DD FG-600F-BDL-950-DD FG-900G -BDL-950-DD FG-1000F-BDL-950-DD
 FC-10-F120G-950- FC-10-F200G-950- FC-10-0400F-950- FC-10-F6H0F-950- FC-10-F9H0G-950- FC-10-F1K0F-950-
 UTP Bundle Renewal
 02-DD 02-DD 02-DD 02-DD 02-DD 02-DD
-FortiGate Cloud
-FC-10-F200G-131- FC-10- F9H0G -131- FC-10-F1K0F-131- 02-
--Management, Analysis, FC-10-F120G-131-02-DD FC-10-0400F-131-02-DD FC-10-0600F-131-02-DD
-02-DD 02-DD DD
+FortiManagement Cloud
+FC-10-MGT4G-131- FC-10-MGT5G-131- FC-10-MGT6G-131- FC-10-MGT6G-131- FC-10-MGT7G-131- FC-10-MGT7G-131-
+-Management, Analysis,
+02-DD 02-DD 02-DD 02-DD 02-DD 02-DD
 1y Log Retention
 * FortiWiFi country code explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiWiFi models based upon country of deployment. Work with your local supplier for the
@@ -549,14 +556,14 @@ MID RANGE AND HIGH END BUNDLES
 Enterprise Protection Bundle
 Enterprise Bundle FG-1800F-BDL-809-DD FG-2600F-BDL-809-DD FG-3000F-BDL-809-DD FG-3200F-BDL-809-DD FG-3500F-BDL-809-DD
 Enterprise Renewal FC-10-F18HF-809-02-DD FC-10-F26HF-809- 02-DD FC-10-F3K0F-809-02-DD FC-10-F3K2F-809-02-DD FC-10-F3K0F-809-02-DD
-FortiGate Cloud
--Management, Analysis, 1y FC-10-F18HF-131-02-DD FC-10-F26HF-131-02-DD FC-10-F3K0F-131-02-DD FC-10-F3K2F-131-02-DD FC-10-F3K5F-131-02-DD
+FortiManagement Cloud
+-Management, Analysis, 1y FC-10-MGT7G-131-02-DD FC-10-MGT7G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD
 Log Retention
 Unified Threat Protection Bundle
 UTP Bundle FG-1800F-BDL-950-DD FG-2600F-BDL-950-DD FG-3000F-BDL-950-DD FG-3200F-BDL-950-DD FG-3500F-BDL-950-DD
 UTP Bundle Renewal FC-10-F18HF-950- 02-DD FC-10-F26HF-950- 02-DD FC-10-F3K0F-950- 02-DD FC-10-F3K2F-950- 02-DD FC-10-F3K5F-950- 02-DD
-FortiGate Cloud
--Management, Analysis, 1y FC-10-F18HF-131-02-DD FC-10-F26HF-131-02-DD FC-10-F3K0F-131-02-DD FC-10-F3K2F-131-02-DD FC-10-F3K5F-131-02-DD
+FortiManagement Cloud
+-Management, Analysis, 1y FC-10-MGT7G-131-02-DD FC-10-MGT7G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD
 Log Retention
 FORTIGATE
 FG-3700F FG-4200F FG-4400F
@@ -571,15 +578,15 @@ MID RANGE AND HIGH END BUNDLES
 Enterprise Protection Bundle
 Enterprise Bundle FG-3600E-BDL-809-DD FG-4200F-BDL-809-DD FG-4400F-BDL-809-DD
 Enterprise Renewal FC-10-F3K6E-809-02-DD FC-10-F42HF-809-02-DD FC-10-F44HF-809-02-DD
-FortiGate Cloud -Management, Analysis, 1y
-FC-10-F3K7F-131-02-DD n/a n/a
-Log Retention
+FortiManagement Cloud -Management,
+FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD
+Analysis, 1y Log Retention
 Unified Threat Protection Bundle
 UTP Bundle FG-3600E-BDL-950-DD FG-4200F-BDL-950-DD FG-4400F-BDL-950-DD
 UTP Bundle Renewal FC-10-F3K6E-950- 02-DD FC-10-F42HF-950-02-DD FC-10-F44HF-950-02-DD
-FortiGate Cloud -Management, Analysis, 1y
-FC-10-F3K7F-131-02-DD n/a n/a
-Log Retention
+FortiManagement Cloud -Management,
+FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD FC-10-MGT8G-131-02-DD
+Analysis, 1y Log Retention
 * FortiWiFi country code explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiWiFi models based upon country of deployment. Work with your local supplier for the
 correct model in your regulatory domain.
@@ -676,13 +683,13 @@ Hardware FAP-441K-suffix* FAP-443K-suffix* FAP-241K-suffix* FAP-243K-suffix*
 NB - no license required for
 — — — —
 FortiGate management
-FortiEdge Cloud Management
-(when NOT managed by FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
-FortiGate)*
+FortiManagement Cloud
+Management (when NOT managed FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD
+by FortiGate)*
 FortiCare Premium FC-10-FP41K-247-02-DD FC-10-FP43K-247-02-DD FC-10-FP21K-247-02-DD FC-10-FP23K-247-02-DD
 FortiCare Elite FC-10-FP41K-284-02-DD FC-10-FP43K-284-02-DD FC-10-FP21K-284-02-DD FC-10-FP23K-284-02-DD
 FortiCare Essential FC-10-FP41K-314-02-DD FC-10-FP43K-314-02-DD FC-10-P241K-314-02-DD FC-10-P243K-314-02-DD
-* FortiCare is included in the FortiEdge Cloud Management license.
+* FortiCare is included in the FortiManagement Cloud Management license.
 FORTIAP FAP-221K FAP-231K FAP-23JK
 STANDARD
 Wi-Fi Generation 7 7 7
@@ -695,13 +702,13 @@ PoE (802.3xx) 1at 1at bt
 Hardware FAP-221K-Suffix* FAP-231K-suffix FAP-23JK-suffix*
 NB - no license required for FortiGate
 management
-FortiEdge Cloud Management (when NOT
-FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
-managed by FortiGate)*
+FortiManagement Cloud Management
+FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD
+(when NOT managed by FortiGate)*
 FortiCare Premium FC-10-P221K-247-02-DD FC-10-P231K-247-02-DD FC-10-P23JK-247-02-DD
 FortiCare Elite FC-10-P221K-284-02-DD FC-10-P231K-284-02-DD FC-10-P23JK-284-02-DD
 FortiCare Essential FC-10-P221K-314-02-DD FC-10-P231K-314-02-DD FC-10-P23JK-314-02-DD
-* FortiCare is included in the FortiEdge Cloud Management license.
+* FortiCare is included in the FortiManagement Cloud Management license.
 14
 
 
@@ -741,14 +748,14 @@ Hardware FAP-432G-suffix* FAP-234F-suffix* FAP-234F-suffix*
 NB - no license required for FortiGate
 — — —
 management
-FortiEdge Cloud Management (when NOT
-FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
-managed by FortiGate)*
+FortiManagement Cloud Management
+FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD
+(when NOT managed by FortiGate)*
 FortiCare Premium FC-10-P432G-247-02-DD FC-10-F244K-247-02-DD FC-10-P234G-247-02-DD
 FortiCare Elite FC-10-P432G-284-02-DD FC-10- F244K -284-02-DD FC-10-P234G-284-02-DD
 FortiCare Essential FC-10-P432G-314-02-DD FC-10- F244K -314-02-DD FC-10-P234G-314-02-DD
 UTP Subscription FC-10-APGIS-768-02-DD FC-10-APGIS-768-02-DD FC-10-APGIS-768-02-DD
-* FortiCare is included in the FortiEdge Cloud Management license.
+* FortiCare is included in the FortiManagement Cloud Management license.
 FORTIAP FAP-222KL FAP-432FR
 STANDARD
 Wi-Fi Generation 7 6
@@ -760,13 +767,13 @@ Ethernet ports 1x 2.5GE, 1x 1GE 1 x 2.5GE, 1GE
 PoE (802.3xx) 802.3bt bt
 Hardware FAP-222KL-suffix* FAP-432FR-suffix*
 NB - no license required for FortiGate management — —
-FortiEdge Cloud Management (when NOT managed by
-FC-10-90AP1-639-02-DD FC-10-90AP1-639-02-DD
-FortiGate)*
+FortiManagement Cloud Management (when NOT managed
+FC-10-MGT0A-639-02-DD FC-10-MGT0A-639-02-DD
+by FortiGate)*
 FortiCare Premium FC-10-F22KL-247-02-DD FC-10-PF432-247-02-DD
 FortiCare Elite FC-10- F22KL-284-02-DD FC-10-PF432-284-02-DD
 FortiCare Essential FC-10- F22KL-314-02-DD FC-10-FR432-314-02-DD
-* FortiCare is included in the FortiEdge Cloud Management license.
+* FortiCare is included in the FortiManagement Cloud Management license.
 * FortiAP country code explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiAP models based upon country
 of deployment. Work with your local supplier for the correct model in your regulatory do-main.
@@ -808,11 +815,11 @@ Ethernet ports 4 x GE
 PoE (802.3xx) at
 Hardware FAP-23JF-suffix*
 NB - no license required for FortiGate management —
-FortiEdge Cloud Management (when NOT managed by FortiGate)* FC-10-90AP1-639-02-DD
+FortiManagement Cloud Management (when NOT managed by FortiGate)* FC-10-MGT0A-639-02-DD
 FortiCare Premium FC-10-P23JF-247-02-DD
 FortiCare Elite FC-10-P23JF-284-02-DD
 FortiCare Essential FC-10-P23JF-314-02-DD
-* FortiCare is included in the FortiEdge Cloud Management license.
+* FortiCare is included in the FortiManagement Cloud Management license.
 * FortiAP country code suffix explanation.
 A country code (-A, -B, -C, -D, -E, -F, -I, -J, -K, -N, -P, -S, -T, -U, -V, -W, or -Y) applies to all FortiAP models based upon country
 of deployment. Work with your local supplier for the correct model in your regulatory domain.
@@ -939,33 +946,32 @@ required for
 — — — — — — —
 FortiGate
 management
-FortiEdge Cloud
-Management
-FC-10-FSW00- FC-10-FSW10- FC-10-FSW10- FC-10-FSW10- FC-10-FSW20- FC-10-FSW30- FC-10-FSW30- FC-10-FSW30-
-(when not
-628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD
+FC-10-MGT1S-
+FortiManagement
+628-02-DD1
+Cloud
+Management FC-10-MGT2S- FC-10-MGT4S- FC-10-MGT4S- FC-10-MGT4S- FC-10-MGT5S- FC-10-MGT6S- FC-10-MGT6S- FC-10-MGT6S-
+(when not 628-02-DD2 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD
 managed by
-FortiGate)
+FC-10-MGT3S-
+FortiGate) 628-02-DD3
 FortiCare when
-managed by FortiCare included in the FortiEdge Cloud license.1
-FortiEdge Cloud
-1 FortiCare only applicable when used with FortiEdge Cloud
+managed by
+FortiCare included in the FortiManagement Cloud license.4
+FortiManagement
+Cloud
+1 100 series with less than 24 ports
+2 100 Series with less than 48 Access ports
+3 100 Series with 48 Access ports or above, including all 100 series Rugged models
+4 FortiCare only applicable when used with FortiManagement Cloud
 For additional models, accessories, and advanced licenses, please see the FortiSwitch Ordering Guide: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiswitch.pdf.
 Additional Secure LAN Management Products
 PRODUCT DESCRIPTION SKU LICENSE
-FORTIGATE CLOUD / FORTIEDGE CLOUD - MULTI TENANCY ACCOUNT
-FortiGate Cloud or FortiEdge Cloud Multi Tenancy service for a Managed Service Provider (MSP) to create and manage FCLE-10-FCLD0-161-02-DD
-multiple SubAccounts.
 FORTIAIOPS MONITORING
 FortiAIOps Monitoring subscription for 25 extension device. Includes FortiCare Premium FC1-10-AOVMS-668-01-DD
 FortiAIOps Monitoring subscription for 25 extension device. Includes FortiCare Premium FC2-10-AOVMS-668-01-DD
 FortiAIOps Monitoring subscription for 25 extension device. Includes FortiCare Premium FC3-10-AOVMS-668-01-DD
 FortiAIOps Monitoring subscription for 25 extension device. Includes FortiCare Premium FC4-10-AOVMS-668-01-DD
-FORTIAIOPS AI INSIGHTS
-FortiAIOps AI Insights subscription for 25 extension device. Includes FortiCare Premium
-FortiAIOps AI Insights subscription for 25 extension device. Includes FortiCare Premium
-FortiAIOps AI Insights subscription for 25 extension device. Includes FortiCare Premium
-FortiAIOps AI Insights subscription for 25 extension device. Includes FortiCare Premium
 FORTIAIOPS MONITORING AND AI INSIGHTS
 FortiAIOps Monitoring & AI Insights subscription for 25 extension device. Includes FortiCare Premium FC1-10-AOVMS-670-01-DD
 FortiAIOps Monitoring & AI Insights subscription for 25 extension device. Includes FortiCare Premium FC2-10-AOVMS-670-01-DD
@@ -980,7 +986,6 @@ All https://www.fortinet.com/resources/ordering-guides
 NGFW https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-next-generation-firewall.pdf
 FortiAP https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-wireless.pdf
 FortiSwitch https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiswitch.pdf
-FortiEdge Cloud https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiedge.pdf
 Visit https://www.fortinet.com/resources/ordering-guides for related ordering guides.
 18
 
@@ -995,7 +1000,7 @@ Visit https://www.fortinet.com/resources/ordering-guides for related ordering gu
 
 | PRODUCT | DESCRIPTION | SKU LICENSE |
 | --- | --- | --- |
-| FORTIGATE CLOUD / FORTIEDGE CLOUD - MULTI TENANCY ACCOUNT |  |  |
+| FORTIAIOPS MONITORING |  |  |
 
 
 **Table 18.3**
@@ -1011,12 +1016,9 @@ What makes a FortiGate a Secure LAN Controller?
 A FortiGate combines security enforcement, FortiAP management, FortiSwitch management and secure network fabric traffic
 into a unified whole — Security Driven Networking. Security is enforced not only at the perimeter, but extended out to the edge
 of the network — where the clients connect to FortiAPs and FortiSwitches.
-What is the difference between FortiGate Cloud and FortiEdge Cloud?
-With FortiGate as a Secure LAN Controller it manages the on-site FortiAPs and FortiSwitches, so FortiGate Cloud manages the
-Secure LAN devices via the managed FortiGate. For locations that need Fortinet Secure LAN devices that are not associated
-with a FortiGate (for whatever reason), FortiEdge Cloud can directly manage the FortiAPs and FortiSwitches.
-How can an MSSP use FortiGate or FortiEdge Cloud with multiple customers?
-They can add a multi-tenancy license to either, which will enable the creation of sub-accounts with full data isolation.
+How can an MSSP use FortiManagement Cloud with multiple customers?
+FortiCloud accounts can enable Multi-Tenancy with FortiCloud Organizations up to 10 accounts. For more than 10 accounts,
+FNDN basic account should be registered (no additional license needed).
 What are typical licenses for customer deployments with NGFW with FortiGates?
 The Unified Threat Protection (UTP) and the Enterprise bundles, which provide extensive coverage for device-, content-, and
 web-based threats, comprehensively cover most customer use cases.
@@ -1024,12 +1026,12 @@ See FortiGuard Security Services here.
 What does the Enterprise bundle include?
 • The Enterprise bundle includes IPS, Advanced Malware Protection, Application Control, URL, DNS and Video Filtering,
 Antispam, Security Rating, IoT Detection, Industrial Security, FortiConverter Service, and FortiCare Premium
-• FortiGate cloud must be added when purchasing enterprise bundle
+• FortiManagement Cloud must be added when purchasing enterprise bundle
 What does the UTP license include?
 • The UTP license includes IPS, advanced malware protection, application control, botnet DB, mobile malware, outbreak
 prevention, web and video filtering, Cloud Sandbox, secure DNS filtering, antispam service, and 24x7 support. For more
 information click here.
-• FortiGate Cloud would need to be added
+• FortiManagement Cloud would need to be added
 Why the difference between “Tunnel vs Total” FortiAPs?
 On a per SSID basis, FortiAPs can tunnel traffic back to the FortiGate for a full security stack inspection – the default behavior.
 However, some customer environments may have a need for local-only Wi-Fi or low inspection guest traffic. Under such
@@ -1041,17 +1043,6 @@ How many FortiAPs does my customer need?
 Every physical site is different. Any FortiAP deployment should have a site survey and a wireless deployment plan from a capable
 Wi-fi engioneer to insure good coverage and performance over a site. As an estimate for planning purposes, most sites require
 approximately one for FortiAP for 1500 sq ft (150 sq m) and about 60 active devices per FortiAP (30 devices per service radio).
-19
-
-
-**Table 19.1**
-
-|  |  |  |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-
-FortiGate Secure LAN Controller Ordering Guide
 What is the difference between 4x4 vs 2x2?
 MIMO is a feature of Wi-Fi that uses multiple antennas to send simultaneous signals and so increase throughput. However,
 the number of antennas must align on both the client and the FortiAP to maximize the potential benefits. Phones and tablets
@@ -1067,4 +1058,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-SLC-OG-R16-20260730
+SLC-OG-R18-20260903
