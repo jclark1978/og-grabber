@@ -40,7 +40,7 @@ Secure Browser  
 Inline CASB   
 Inline DLP   
 Secure SaaS
-Access (SSA) Cloud API CASB & DLP License Included License Included License Included
+Access (SSA) Cloud API CASB & DLP License Included License Included
 Secure Browser  
 FortiGate Private Access  ➀  ➀  ➀
 Secure Private Zero Trust Network Access (ZTNA)   
@@ -113,7 +113,7 @@ HARDWARE INCLUDED SEATS SKU
 100F+ 10 FC-10-XXXXX-1329-02-DD, FC-10-XXXXX-1389-02-DD ➀
 700G+ 50 FC-10-XXXXX-1329-02-DD, FC-10-XXXXX-1389-02-DD ➀
 1800F+ 100 FC-10-XXXXX-1329-02-DD, FC-10-XXXXX-1389-02-DD ➀
-➀ Only SKU 1329 inlcude FortiCare Premium
+➀ Only SKU 1329 include FortiCare Premium
 Ordering Information
 Remote Users
 USER BANDS STANDARD ADVANCED COMPREHENSIVE
@@ -156,7 +156,7 @@ Web and DNS Filtering   
 Botnet C&C Filtering   
 Inline CASB   
 Secure SaaS Access (SSA) Inline DLP   
-Cloud API CASB & DLP License Included License Included License Included
+Cloud API CASB & DLP License Included License Included
 Secure Private Access (SPA) FortiGate SD-WAN Integration  ➁  ➁  ➁
 NOC / SOC Integration SASE Cloud Logging, Reporting &   
 Log Forwarding
@@ -435,7 +435,7 @@ can have a maximum of 20 Branch On-Ramp locations and a total of 40,000 Branch O
 dedicated to the Location and not shared with Remote Users or Edge Devices. Multiple On-Ramp Locations can be provisioned
 in the same FortiSASE Region. Each Location has a standalone bandwidth limit.
 What devices can connect to a Branch On-Ramp Location?
-For a full list of supported device types, refer to: https://links.fortinet.com/fortisase/sd-wan-on-ramp
+For a full list of supported device types, refer to: https://links.fortinet.com/docs/fortisase/branch-on-ramp
 How many Locations can be supported with the Branch On-Ramp License?
 Up to 20 Branch On-Ramp Locations can be purchased for a single account. A minimum of 2 locations is required for
 redundancy.
@@ -494,5 +494,5 @@ conditions may affect performance results. Nothing herein represents any binding
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-June 30, 2026 12:48 PM
-FSS-OG-R41-20260630
+September 10, 2026 9:27 AM
+FSS-OG-R42-20260910

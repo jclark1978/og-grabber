@@ -341,8 +341,14 @@ FS-SW- LIC-
 Switching FS-SW-LIC-300 (only available FS-SW-LIC-1000
 1000
 License* with FS-4XX)
-Cloud Manage- FC-10-FSW00- FC-10-FSW00- FC-10-FSW10- FC-10-FSW00- FC-10- FSW00- FC-10-FSW10- FC-10-FSW10- FC-10-FSW30- FC-10- FSW30-
-ment License** 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02- DD 628-02-DD 628-02-DD 628-02-DD 628-02- DD
+124F: FC-10-
+MGT2S-628-
+02-DD
+Cloud Manage- FC-10-FSW00- FC-10-FSW00- FC-10-MGT4S- FC-10-MGT2S- FC-10-MGT4S- FC-10-MGT4S- FC-10-MGT6S- FC-10-MGT6S-
+148F: FC-10-
+ment License** 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD
+MGT3S-628-
+02-DD
 5
 
 
@@ -371,7 +377,7 @@ ment License** 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02- DD 628-02-DD 628-
 
 |  |  |  |
 | --- | --- | --- |
-| FC-10-FSW00- 628-02-DD | FC-10-FSW00- 628-02-DD | FC-10-FSW10- 628-02-DD |
+| FC-10-FSW00- 628-02-DD | FC-10-FSW00- 628-02-DD | FC-10-MGT4S- 628-02-DD |
 
 
 **Table 5.3**
@@ -417,8 +423,8 @@ ADD-ON LICENSES
 Advanced Switching
 FS-SW-LIC-600 FS-SW-LIC-2000 FS-SW-LIC-3000 FS-SW-LIC-400
 License*
-Cloud Manage-ment FC-10-FSW20- 628- FC-10-FSW30- 628- FC-10-FSW30-628- FC-10- FSW10- 628- FC-10-FSW10-628- FC-10- FSW10- 628- FC-10-FSW10- 628-
-License** 02-DD 02-DD 02-DD 02- DD 02-DD 02-DD 02-DD
+Cloud Manage-ment FC-10-MGT5S-628- FC-10-MGT6S-628- FC-10-MGT6S-628- FC-10-MGT3S-628- FC-10-MGT3S-628- FC-10-MGT4S-628- FC-10-MGT4S-628-
+License** 02-DD 02-DD 02-DD 02-DD 02-DD 02-DD 02-DD
 6
 
 
@@ -448,7 +454,7 @@ License** 02-DD 02-DD 02-DD 02- DD 02-DD 02-DD 02-DD
 
 | FS-SW-LIC-600 | FS-SW-LIC-2000 | FS-SW-LIC-3000 |
 | --- | --- | --- |
-| FC-10-FSW20- 628- 02-DD | FC-10-FSW30- 628- 02-DD | FC-10-FSW30-628- 02-DD |
+| FC-10-MGT5S-628- 02-DD | FC-10-MGT6S-628- 02-DD | FC-10-MGT6S-628- 02-DD |
 
 
 **Table 6.4**
@@ -605,7 +611,7 @@ FN-TRAN-QSFP28- FN-TRAN-QSFP28-
 100Gbps, 20km
 ER ER
 * The Advanced Switching license enables dynamic routing protocols in standalone mode.
-** Includes FortiCare only when FortiEdge Cloud manages the unit.
+** Includes FortiCare only when FortiManagement Cloud manages the unit.
 *** FN-TRAN-SFP-BD27 and FN-TRAN-SFP-BD33 must be connected to each other.
 This document is a guide to assist in common scenarios. Refer to the datasheet for detailed specifications.
 POWER SUPPLY OPTIONS
@@ -669,7 +675,8 @@ FCP - FortiSwitch Training and Certification
 Learn how to deploy, provision, and manage a FortiSwitch with FortiGate using FortiLink. This course also covers the
 deployment and troubleshooting of Layer 2 and Layer 3 features and the most common FortiSwitch stack topologies, including
 those that leverage multichassis link aggregation group (MCLAG) for redundancy and higher performance. Also, learn about
-FortiSwitch in standalone mode, its unique features, and how to manage a standalone switch directly or from FortiLAN Cloud.
+FortiSwitch in standalone mode, its unique features, and how to manage a standalone switch directly or from FortiManagement
+Cloud.
 Course description
 For information about prerequisites, agenda topics, and learning objectives, see https://training.fortinet.com/local/staticpage/
 view.php?page=library_fortiswitch
@@ -683,4 +690,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FSW-OG-R22-20260804
+FSW-OG-R23-20260914
