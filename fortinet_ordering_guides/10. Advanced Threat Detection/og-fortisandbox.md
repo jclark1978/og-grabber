@@ -105,7 +105,7 @@ FortiSandbox and FortiGuard Sandbox Service Ordering Guide
 SaaS Offering (FortiGate-Based Deployment)
 Use SaaS when the customer wants the fastest way to add sandboxing and advanced threat protection to an existing FortiGate
 deployment. FortiSandbox SaaS is delivered through FortiGuard services and integrates directly with FortiGate and other
-Security Fabric products. It requires no additional hardware Microsoft licenses on your part and enables:
+Security Fabric products. It requires no additional hardware or Microsoft licenses on your part and enables:
 • Cloud-based sandbox analysis
 • Threat visibility and log enrichment
 • Optional inline threat prevention
@@ -192,7 +192,9 @@ Detection      
 Unknown malware
      
 detection
-Antievasion detection      
+Anti-evasion
+     
+detection
 C&C detection      
 AV / IPS / Web
      
@@ -239,8 +241,8 @@ Customer wants cloud control FSA-VM Scaled deployment
 Mid-size on-prem deployment 500G Scaled / Mid-size SOC deployment
 Enterprise deployment 1500G Scaled / Enterprise SOC deployment
 High-throughput SOC / large enterprise 3000G High throughput / Enterprise SOC deployment
-The environment scales driven by: Base platform selection, Subscription tier, Universal VM capacity, Microsoft Windows / Office
-licensing for nested VMs and Optional Xloud VM expansion in supported models
+The environment scale is driven by: Base platform selection, Subscription tier, Universal VM capacity, Microsoft Windows / Office
+licensing for nested VMs and Optional Cloud VM expansion in supported models
 Quoting List
 Use this checklist to avoid the most common ordering mistakes:
 1 – Every deployment starts with a base platform
@@ -284,6 +286,59 @@ registration issues.
 |  |  |  |
 
 FortiSandbox and FortiGuard Sandbox Service Ordering Guide
+Cluster Sizing Guidelines
+FortiSandbox supports horizontal scaling through worker node clustering, enabling organizations to increase malware analysis
+capacity as workload demands grow. The following guidelines provide conservative planning factors for estimating cluster
+throughput and selecting the appropriate number of worker nodes.
+Selecting the Appropriate Appliance
+Use the throughput values published in the FortiSandbox Datasheet as the baseline performance for a single appliance. Select
+an appliance model that meets your expected workload while allowing capacity for future growth.
+For environments requiring higher throughput, additional worker nodes can be added to a FortiSandbox cluster to increase
+analysis capacity without changing the existing deployment architecture.
+Best Practice: Dedicated HA and Worker Nodes
+For maximum scalability, consider deploying dedicated FSA-VMS primary and secondary units for HA and cluster management,
+with hardware or VM appliances serving as worker nodes for malware analysis. Configure the FSA-VMS primary and secondary
+units without worker clones. This dedicates their resources to HA and cluster management, allowing worker nodes to focus on
+analysis and providing more consistent and predictable scalability.
+This architecture also enables customers to mix different FortiSandbox hardware and VM models as worker nodes, allowing
+available processing capacity from different deployments to be combined within the same cluster.
+Example – 1500G Cluster Sizing
+Using a recommended Effective Scan Throughput of 32,000 files/hour:
+• 2 workers: 32,000 × 2 × 0.90 = 57,600 files/hour
+• 3 workers: 32,000 × 3 × 0.90 = 86,400 files/hour
+With dedicated FSA-VMS or 500G primary/secondary units for job allocation and cluster management, throughput can increase
+by an additional 10
+Cluster Throughput Estimation
+Worker node clustering provides highly scalable malware analysis capacity, although aggregate throughput may not scale
+linearly with the number of worker nodes. For capacity planning, use the following conservative planning factors when
+estimating the throughput of a clustered deployment.
+ANALYSIS TYPE FSA-500G FSA-1500G FSA-3000G
+Static Analysis 100% 100% 100%
+Dynamic Analysis 90% 92% 92%
+Effective Scan 98% 98% 98%
+Estimated Cluster Throughput = Single-Worker Throughput × Number of Worker Nodes × Planning Factor
+Note: Planning factors are based on internal validation testing and are intended for deployment sizing. Actual throughput
+depends on workload characteristics, including file types, analysis policies, virtual machine utilization, concurrent submissions,
+and system configuration.
+Recommendation: For production deployments, size the cluster based on Effective Scan throughput, as it reflects the combined
+performance of static and dynamic analysis and more closely represents typical malware analysis workloads.
+6
+
+
+**Table 6.1**
+
+| ANALYSIS TYPE | FSA-500G | FSA-1500G | FSA-3000G |
+| --- | --- | --- | --- |
+
+
+**Table 6.2**
+
+|  |  |  |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+
+FortiSandbox and FortiGuard Sandbox Service Ordering Guide
 PaaS Ordering Summary
 Use this option when the customer wants Fortinet-hosted dedicated sandboxing with scalable Cloud VM capacity.
 PAAS +1 CLOUD VM +5 CLOUD VM
@@ -309,14 +364,14 @@ Advanced AI Subscription 1 FC1-10-SAVMS-1248-02-DD5 FC-10-FS5HG-1092-02-DD FC-10
 VM Capacity
 Universal VM Subscriptions/
 FC1-10-SAVMS-1035-02-DD5 FC1-10-FS5HG-1035-02-DD FC1-10-FS15G-1035-02-DD FC1-10-SA3KG-1035-02-DD
-Renewal2
+Renewals2
 Nested VMs 0 to 64 2 to 14 2 to 28 8 to 150
 Cloud VMs 0 to 200 2 to 80 2 to 120 8 to 200
 Microsoft Licenses2
 Windows 10 FSA-LIC-WIN10-1
 Windows 11 FSA-LIC-WIN11-1
 Office 2021 FSA-UPG-OFFICE2021-1
-Office2024 FSA-UPG-OFFICE2024-1
+Office 2024 FSA-UPG-OFFICE2024-1
 Addon Subscriptions
 Mailbox MTA License4 FC1-10-FSA01-321-02-DD
 FortiCare Premium Support
@@ -336,24 +391,24 @@ FN-TRAN-SFP+GC
 5.The listed SKU covers 0 to 8 Nested Universal VMs. SKUs for higher tiers are also available for purchase
 If an order includes multiple FortiSandbox units, seat-based licenses must be listed separately per unit to prevent unintended
 license stacking. Ensure that each license line item applies to one specific FortiSandbox unit only.
-6
+7
 
 
-**Table 6.1**
+**Table 7.1**
 
 | PAAS | +1 CLOUD VM | +5 CLOUD VM |
 | --- | --- | --- |
 | SKUS |  |  |
 
 
-**Table 6.2**
+**Table 7.2**
 
 | VM/HW APPLIANCE | VMS | 500G | 1500G | 3000G |
 | --- | --- | --- | --- | --- |
 | SINGLE SKUS |  |  |  |  |
 
 
-**Table 6.3**
+**Table 7.3**
 
 |  |  |  |
 | --- | --- | --- |
@@ -395,22 +450,22 @@ SKUs (8) FC1-10-SAVMS-1035-02-DD
 The above SKUs correspond to the single-unit configuration, with quantities doubled. Please note that the Universal VM (SKU 1035) must be ordered as
 Notes
 a separate line item to avoid registration constraints.
-7
+8
 
 
-**Table 7.1**
-
-|  | VMS | 500G | 1500G | 3000G |
-| --- | --- | --- | --- | --- |
-
-
-**Table 7.2**
+**Table 8.1**
 
 |  | VMS | 500G | 1500G | 3000G |
 | --- | --- | --- | --- | --- |
 
 
-**Table 7.3**
+**Table 8.2**
+
+|  | VMS | 500G | 1500G | 3000G |
+| --- | --- | --- | --- | --- |
+
+
+**Table 8.3**
 
 |  |  |  |
 | --- | --- | --- |
@@ -453,19 +508,19 @@ Yes. This is not a closed ecosystem—works in mixed environments.
 Supports:
 • ICAP
 • JSON RPC APIs
-8
+9
 
 
-**Table 8.1**
+**Table 9.1**
 
-|  |  |  |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
+|  |  |
+| --- | --- |
+|  |  |
+|  |  |
 
 FortiSandbox and FortiGuard Sandbox Service Ordering Guide
 3. Licensing & VM Strategy
-Do I need Microsoft licenses?
+Are Microsoft licenses required?
 Depends on deployment type:
 Scenario License Required
 Nested VMs (on appliance/VM) Yes
@@ -501,10 +556,10 @@ Can customers upgrade their FortiSandbox later?
 Yes.
 • Supports upgrades (e.g., VMS tiers)
 • Supports co-term licensing for simplified renewals
-9
+10
 
 
-**Table 9.1**
+**Table 10.1**
 
 |  |  |  |
 | --- | --- | --- |
@@ -538,10 +593,10 @@ FortiSandbox and FortiGuard Sandbox Service Ordering Guide
 • Scale using VMs and appliance size
 • Only worry about Microsoft licenses for nested VMs
 • When unsure → position a POC
-10
+11
 
 
-**Table 10.1**
+**Table 11.1**
 
 |  |  |  |
 | --- | --- | --- |
@@ -568,5 +623,5 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-June 5, 2026 8:53 AM
-FSA-OG-R45-20260605
+September 18, 2026 12:52 PM
+FSA-OG-R51-20260918

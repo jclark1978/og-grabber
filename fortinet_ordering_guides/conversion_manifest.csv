@@ -17,7 +17,7 @@ pdf,markdown,status,detail
 04. Unified AppSec and Cloud/og-cloud-consult-svc.pdf,04. Unified AppSec and Cloud/og-cloud-consult-svc.md,converted,pdfplumber; PDF deleted
 04. Unified AppSec and Cloud/og-fortiadc.pdf,04. Unified AppSec and Cloud/og-fortiadc.md,converted,pdfplumber; PDF deleted
 04. Unified AppSec and Cloud/og-fortiappsec.pdf,04. Unified AppSec and Cloud/og-fortiappsec.md,converted,pdfplumber; PDF deleted
-04. Unified AppSec and Cloud/og-forticasb-sspm.pdf,04. Unified AppSec and Cloud/og-forticasb-sspm.md,converted,pdfplumber; PDF deleted
+04. Unified AppSec and Cloud/og-forticasb.pdf,04. Unified AppSec and Cloud/og-forticasb.md,converted,pdfplumber; PDF deleted
 04. Unified AppSec and Cloud/og-forticnapp.pdf,04. Unified AppSec and Cloud/og-forticnapp.md,converted,pdfplumber; PDF deleted
 04. Unified AppSec and Cloud/og-fortiweb.pdf,04. Unified AppSec and Cloud/og-fortiweb.md,converted,pdfplumber; PDF deleted
 05. Unified WorkSpace Security/og-fortimail-wss.pdf,05. Unified WorkSpace Security/og-fortimail-wss.md,converted,pdfplumber; PDF deleted
@@ -30,7 +30,6 @@ pdf,markdown,status,detail
 07. Unified AI-Ops/og-fortimonitor.pdf,07. Unified AI-Ops/og-fortimonitor.md,converted,pdfplumber; PDF deleted
 08. Unified Attack Surface Management/og-fortirecon.pdf,08. Unified Attack Surface Management/og-fortirecon.md,converted,pdfplumber; PDF deleted
 08. Unified Attack Surface Management/og-ir-services.pdf,08. Unified Attack Surface Management/og-ir-services.md,converted,pdfplumber; PDF deleted
-09. Central Management/og-fortimanagement.pdf,09. Central Management/og-fortimanagement.md,converted,pdfplumber; PDF deleted
 09. Central Management/og-fortimanager.pdf,09. Central Management/og-fortimanager.md,converted,pdfplumber; PDF deleted
 10. Advanced Threat Detection/og-fortideceptor.pdf,10. Advanced Threat Detection/og-fortideceptor.md,converted,pdfplumber; PDF deleted
 10. Advanced Threat Detection/og-fortindr.pdf,10. Advanced Threat Detection/og-fortindr.md,converted,pdfplumber; PDF deleted
@@ -40,11 +39,9 @@ pdf,markdown,status,detail
 11. Identity and Access/og-fortipam.pdf,11. Identity and Access/og-fortipam.md,converted,pdfplumber; PDF deleted
 11. Identity and Access/og-fortitoken.pdf,11. Identity and Access/og-fortitoken.md,converted,pdfplumber; PDF deleted
 11. Identity and Access/og-ztna.pdf,11. Identity and Access/og-ztna.md,converted,pdfplumber; PDF deleted
-12. SASE/og-casb.pdf,12. SASE/og-casb.md,converted,pdfplumber; PDF deleted
 12. SASE/og-fortibranchsase.pdf,12. SASE/og-fortibranchsase.md,converted,pdfplumber; PDF deleted
 12. SASE/og-fortisase.pdf,12. SASE/og-fortisase.md,converted,pdfplumber; PDF deleted
 12. SASE/og-sovereign-sase.pdf,12. SASE/og-sovereign-sase.md,converted,pdfplumber; PDF deleted
-13. Training/og-fortisat.pdf,13. Training/og-fortisat.md,converted,pdfplumber; PDF deleted
 13. Training/og-nse-program.pdf,13. Training/og-nse-program.md,converted,pdfplumber; PDF deleted
 14. Flexible Licensing/og-cmpo.pdf,14. Flexible Licensing/og-cmpo.md,converted,pdfplumber; PDF deleted
 14. Flexible Licensing/og-entagreement.pdf,14. Flexible Licensing/og-entagreement.md,converted,pdfplumber; PDF deleted

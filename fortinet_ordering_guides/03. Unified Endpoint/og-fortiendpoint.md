@@ -57,22 +57,20 @@ FortiGuard Endpoint Forensics
 ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 Service
 Incident Response Service Optional Optional Optional Optional Optional Optional
-SOCaaS**** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
-FortiAnalyzer Cloud (SaaS)** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+SOCaaS** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiAnalyzer Cloud (SaaS) ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 ADDITIONAL SERVICES
 FortiIdentity Cloud Basic ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
-Best Practice Service (BPS) Optional account Optional account Optional account Optional account Optional account Optional account
-Consultation*** add-on add-on add-on add-on add-on add-on
+Best Practice Service (BPS) Optional account Optional account Mandatory account Mandatory account Mandatory account Mandatory account
+Consultation add-on add-on add-on add-on add-on add-on
 * Basic DLP features are included
-** FortiAnalyzer Cloud does not support EDR logs.
-*** BPS is mandatory for all solutions that include EDR.
-**** Only for Endpoint Security features
+** Only for Endpoint Security features
 Order Information
 SOLUTION ZERO TRUST CONNECT PROTECT CORE PROTECT PLUS
 25-499 FC2-10-EMS05-1406-02-DD FC2-10-EMS05-1344-02-DD FC2-10-EMS05-1345-02-DD
 500-4,999 FC3-10-EMS05-1406-02-DD FC3-10-EMS05-1344-02-DD FC3-10-EMS05-1345-02-DD
 5,000+ FC4-10-EMS05-1406-02-DD FC4-10-EMS05-1344-02-DD FC4-10-EMS05-1345-02-DD
-DIY PROTECT XDR DATA PROTECT COMPLETE
+DIY PROTECT XDR PROTECT DATA COMPLETE
 25-499 FC2-10-EMS05-1346-02-DD FC2-10-EMS05-1347-02-DD FC2-10-EMS05-1348-02-DD
 500-4,999 FC3-10-EMS05-1346-02-DD FC3-10-EMS05-1347-02-DD FC3-10-EMS05-1348-02-DD
 5,000+ FC4-10-EMS05-1346-02-DD FC4-10-EMS05-1347-02-DD FC4-10-EMS05-1348-02-DD
@@ -119,7 +117,7 @@ DIY PROTECT XDR DATA PROTECT COMPLETE
 
 **Table 2.7**
 
-|  | PROTECT XDR | DATA PROTECT | COMPLETE |
+|  | PROTECT XDR | PROTECT DATA | COMPLETE |
 | --- | --- | --- | --- |
 
 
@@ -161,25 +159,23 @@ SECURITY OPERATIONS
 FortiGuard Endpoint Forensics
 ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 Service
-Incident Response Service ✓⃝ ✓⃝ ✓⃝ ✓⃝l ✓⃝
+Incident Response Service ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 SOCaaS ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
-FortiAnalyzer Cloud (SaaS)** ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
+FortiAnalyzer Cloud (SaaS) ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 DEPLOYMENT
 Managed Service ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 ADDITIONAL SERVICES
 FortiIdentity Cloud Basic ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
 Best Practice Service (BPS)
 ✓⃝ ✓⃝ ✓⃝ ✓⃝ ✓⃝
-Consultation***
+Consultation
 * Basic DLP features are included
-** FortiAnalyzer Cloud does not support EDR logs.
-*** BPS is mandatory for all solutions that include EDR.
 Order Information
 SOLUTION PROTECT CORE PROTECT PLUS PROTECT XDR
 25-499 FC2-10-EMS05-1349-02-DD FC2-10-EMS05-1350-02-DD FC2-10-EMS05-1351-02-DD
 500-4,999 FC3-10-EMS05-1349-02-DD FC3-10-EMS05-1350-02-DD FC3-10-EMS05-1351-02-DD
 5,000+ FC4-10-EMS05-1349-02-DD FC4-10-EMS05-1350-02-DD FC4-10-EMS05-1351-02-DD
-DIY DATA PROTECT COMPLETE
+Managed PROTECT DATA COMPLETE
 25-499 FC2-10-EMS05-1352-02-DD FC2-10-EMS05-1353-02-DD
 500-4,999 FC3-10-EMS05-1352-02-DD FC3-10-EMS05-1353-02-DD
 5,000+ FC4-10-EMS05-1352-02-DD FC4-10-EMS05-1353-02-DD
@@ -228,7 +224,7 @@ DIY DATA PROTECT COMPLETE
 
 **Table 3.7**
 
-|  | DATA PROTECT | COMPLETE |  |
+|  | PROTECT DATA | COMPLETE |  |
 | --- | --- | --- | --- |
 |  |  |  |  |
 |  |  |  |  |
@@ -244,13 +240,12 @@ DIY DATA PROTECT COMPLETE
 
 FortiEndpoint Ordering Guide
 Order Information - BPS
-BPS is mandatory for all solutions that include EDR.
 SOLUTION ZERO TRUST CONNECT PROTECT CORE * PROTECT PLUS
 25-499 FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
 500-4,999 FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
 FortiCare Best 5,000+ FCx-10-FCBPS-310-02-DD FCx-10-FCBPS-310-02-DD FCx-10-UABPS-310-02-DD
 Practices
-DIY PROTECT XDR DATA PROTECT COMPLETE
+DIY PROTECT XDR PROTECT DATA COMPLETE
 Consultation
 Service 25-499 FCx-10-UABPS-310-02-DD FCx-10-UABPS-310-02-DD FCx-10-UABPS-1354-02-DD
 500-4,999 FCx-10-UABPS-310-02-DD FCx-10-UABPS-310-02-DD FCx-10-UABPS-1354-02-DD
@@ -271,7 +266,7 @@ FortiEndpoint EDR Additional Storage Additional 512GB data retention storage FC1
 
 **Table 4.2**
 
-|  | PROTECT XDR | DATA PROTECT | COMPLETE |
+|  | PROTECT XDR | PROTECT DATA | COMPLETE |
 | --- | --- | --- | --- |
 |  |  |  | FCx-10-UABPS-1354-02-DD |
 |  |  |  | FCx-10-UABPS-1354-02-DD |
@@ -297,15 +292,13 @@ What is FortiEndpoint? Is it a new product?
 FortiEndpoint is the unified agent solution branding. FortiEndpoint branding is used for the FortiClient unified agent solution.
 Customers ordering FortiEndpoint will get the FortiClient unified agent solution.
 Is BPS mandatory for FortiEndpoint?
-The BPS service license is mandatory for all new customers with license tiers that include EDR features.
+The BPS service license is mandatory for all new customers with DIY license tiers of PROTECT PLUS ,PROTECT XDR ,PROTECT
+DATA and COMPLETE.
 Does FortiEndpoint support on-premise deployment or is it cloud only?
 FortiEndpoint is a cloud-only solution.
-Can an existing FortiEDR customer get a FortiEndpoint license?
-No, currently FortiEndpoint does not support upgrading from the current FortiEDR solution. It is for new customers only, as a
-fresh EDR instance will be provisioned.
-Is FortiAnalyzer Cloud going to be available for the unified agent solution?
-FortiEndpoint is a cloud-focused solution, so we will be updating the entitlement in the mid-Q4 2024 PL to include
-FortiAnalyzer Cloud for all FortiEndpoint license tiers.
+Can an existing FortiEDR or FortiDLP customer get a FortiEndpoint license?
+No, currently FortiEndpoint does not support upgrading from the current FortiEDR or FortiDLP solution. It is for new customers
+only, as a fresh EDR & DLP instance will be provisioned.
 Can we mix and match different SKUs on the same EMS?
 No, SKU mix and match is not supported.
 I have an existing FortiClient Cloud license. Can I migrate to FortiEndpoint license?
@@ -322,4 +315,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FEP-OG-R11-20260911
+FEP-OG-R11-20260925
