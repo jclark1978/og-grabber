@@ -344,7 +344,7 @@ License* with FS-4XX)
 124F: FC-10-
 MGT2S-628-
 02-DD
-Cloud Manage- FC-10-FSW00- FC-10-FSW00- FC-10-MGT4S- FC-10-MGT2S- FC-10-MGT4S- FC-10-MGT4S- FC-10-MGT6S- FC-10-MGT6S-
+Cloud Manage- FC-10-MGT1S- FC-10-MGT1S- FC-10-MGT4S- FC-10-MGT2S- FC-10-MGT4S- FC-10-MGT4S- FC-10-MGT6S- FC-10-MGT6S-
 148F: FC-10-
 ment License** 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD 628-02-DD
 MGT3S-628-
@@ -377,7 +377,7 @@ MGT3S-628-
 
 |  |  |  |
 | --- | --- | --- |
-| FC-10-FSW00- 628-02-DD | FC-10-FSW00- 628-02-DD | FC-10-MGT4S- 628-02-DD |
+| FC-10-MGT1S- 628-02-DD | FC-10-MGT1S- 628-02-DD | FC-10-MGT4S- 628-02-DD |
 
 
 **Table 5.3**
@@ -690,4 +690,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FSW-OG-R23-20260914
+FSW-OG-R24-20260921
