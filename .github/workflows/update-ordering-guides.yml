@@ -4,40 +4,85 @@ on:
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - "requirements.txt"
+      - "tests/**"
+      - ".github/workflows/update-ordering-guides.yml"
+  pull_request:
+    paths:
+      - "*.py"
+      - "requirements.txt"
+      - "tests/**"
+      - ".github/workflows/update-ordering-guides.yml"
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: ordering-guides-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  update-ordering-guides:
+  test:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Check out repository
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+
+  update-ordering-guides:
+    if: github.event_name != 'pull_request'
+    needs: test
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out current baseline
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Download and convert ordering guides
+      - name: Verify PDF contents and update mirror
+        id: refresh
         run: python run_ordering_guides_pipeline.py
 
-      - name: Commit updated guides
+      - name: Upload comparison evidence, including incomplete checks
+        if: ${{ !cancelled() && steps.refresh.outcome != 'skipped' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ordering-guide-content-reports
+          path: |
+            fortinet_ordering_guides/guide_baseline.json
+            fortinet_ordering_guides/guide_changes.json
+            fortinet_ordering_guides/changes/
+          if-no-files-found: error
+
+      - name: Commit verified guides and persistent comparison state
+        if: ${{ !cancelled() && steps.refresh.outcome != 'skipped' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all
+          git add --all fortinet_ordering_guides/
           if git diff --cached --quiet; then
-            echo "No guide changes to commit."
+            echo "No guide state changes to commit."
             exit 0
           fi
-          git commit -m "Update ordering guides"
+          git commit -m "Update ordering guides and content comparison"
           git push

@@ -1,2 +1,2 @@
-pdfplumber
-requests
+pdfplumber==0.11.9
+requests==2.34.2

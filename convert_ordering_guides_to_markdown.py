@@ -70,7 +70,7 @@ def convert_with_pdftotext(pdf_path: str) -> str:
     """Fallback: shell out to poppler's pdftotext, preserving rough layout."""
     result = subprocess.run(
         ["pdftotext", "-layout", pdf_path, "-"],
-        capture_output=True, text=True, timeout=60,
+        capture_output=True, text=True, timeout=60, check=True,
     )
     return result.stdout.strip()
 
