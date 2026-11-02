@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T09:02:20.604854+00:00",
+  "checked_at": "2026-11-02T11:17:48.051404+00:00",
   "guides": {
     "og-casb": {
       "category": "12. SASE",
@@ -17,7 +17,7 @@
     },
     "og-cloud-consult-svc": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260415",
       "file_size": 336302,
       "guide_key": "og-cloud-consult-svc",
@@ -31,7 +31,7 @@
     },
     "og-cloud-next-generation-firewall": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260709",
       "file_size": 682655,
       "guide_key": "og-cloud-next-generation-firewall",
@@ -45,7 +45,7 @@
     },
     "og-cmpo": {
       "category": "14. Flexible Licensing",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261023",
       "file_size": 151006,
       "guide_key": "og-cmpo",
@@ -59,7 +59,7 @@
     },
     "og-data-center-firewall": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260707",
       "file_size": 711088,
       "guide_key": "og-data-center-firewall",
@@ -73,7 +73,7 @@
     },
     "og-education": {
       "category": "18. Vertical - Others",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250723",
       "file_size": 520190,
       "guide_key": "og-education",
@@ -87,7 +87,7 @@
     },
     "og-entagreement": {
       "category": "14. Flexible Licensing",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20241219",
       "file_size": 553459,
       "guide_key": "og-entagreement",
@@ -101,7 +101,7 @@
     },
     "og-fgaas": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260804",
       "file_size": 393646,
       "guide_key": "og-fgaas",
@@ -115,7 +115,7 @@
     },
     "og-flex-vm": {
       "category": "14. Flexible Licensing",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260922",
       "file_size": 166716,
       "guide_key": "og-flex-vm",
@@ -129,7 +129,7 @@
     },
     "og-fortiadc": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260806",
       "file_size": 1198089,
       "guide_key": "og-fortiadc",
@@ -142,12 +142,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiadc.pdf"
     },
     "og-fortiaigate": {
-      "category": "19. Other Products and Solutions",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "04. Unified AppSec and Cloud",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261023",
       "file_size": 71831,
       "guide_key": "og-fortiaigate",
-      "local_path": "19. Other Products and Solutions/og-fortiaigate.md",
+      "local_path": "04. Unified AppSec and Cloud/og-fortiaigate.md",
       "missing_checks": 0,
       "pdf_sha256": "fdd7ef9d01a85c8cfaa6761b20089cd977bc56f2312e83a3f52e342fab85b04d",
       "status": "verified",
@@ -157,7 +157,7 @@
     },
     "og-fortiaiops": {
       "category": "07. Unified AI-Ops",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260909",
       "file_size": 114963,
       "guide_key": "og-fortiaiops",
@@ -171,7 +171,7 @@
     },
     "og-fortianalyzer": {
       "category": "06. Unified SecOps Platform",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260923",
       "file_size": 1325655,
       "guide_key": "og-fortianalyzer",
@@ -185,7 +185,7 @@
     },
     "og-fortiappsec": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260702",
       "file_size": 333474,
       "guide_key": "og-fortiappsec",
@@ -199,21 +199,21 @@
     },
     "og-fortiauthenticator": {
       "category": "11. Identity and Access",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
-      "document_date": "20261015",
-      "file_size": 147392,
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
+      "document_date": "20261028",
+      "file_size": 149894,
       "guide_key": "og-fortiauthenticator",
       "local_path": "11. Identity and Access/og-fortiauthenticator.md",
       "missing_checks": 0,
-      "pdf_sha256": "11cc132e6d059dd402774509ef09541c6991966038755ed5f0c5475cde78a6c2",
+      "pdf_sha256": "7b37020c9ca06a2a6e431069a6a55dc9d688b509ebb4904fdd01103ff5d58e85",
       "status": "verified",
-      "text_sha256": "f9c9e3b649c47466c186cee5af5c58a2547b9b94f4727e735928fa7ce0eb93c8",
+      "text_sha256": "33d988f898ac3f558a9af8009380bbb9c868a23b966798eee66ca04f8e8271fb",
       "title": "FortiAuthenticator",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiauthenticator.pdf"
     },
     "og-fortibranchsase": {
       "category": "12. SASE",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260318",
       "file_size": 582587,
       "guide_key": "og-fortibranchsase",
@@ -227,7 +227,7 @@
     },
     "og-forticam": {
       "category": "19. Other Products and Solutions",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260720",
       "file_size": 327470,
       "guide_key": "og-forticam",
@@ -240,12 +240,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticam.pdf"
     },
     "og-forticare": {
-      "category": "15. Advanced Support",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "04. Unified AppSec and Cloud",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261022",
       "file_size": 510339,
       "guide_key": "og-forticare",
-      "local_path": "15. Advanced Support/og-forticare.md",
+      "local_path": "04. Unified AppSec and Cloud/og-forticare.md",
       "missing_checks": 0,
       "pdf_sha256": "1fb0a4a3c0f4fe71d396701c7629ff8666a4967a8f158c81aa70f10c2e5bb192",
       "status": "verified",
@@ -255,7 +255,7 @@
     },
     "og-forticasb": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260917",
       "file_size": 529814,
       "guide_key": "og-forticasb",
@@ -269,7 +269,7 @@
     },
     "og-forticlient": {
       "category": "03. Unified Endpoint",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260429",
       "file_size": 632760,
       "guide_key": "og-forticlient",
@@ -297,7 +297,7 @@
     },
     "og-forticnapp": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260819",
       "file_size": 88311,
       "guide_key": "og-forticnapp",
@@ -310,12 +310,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticnapp.pdf"
     },
     "og-fortiddos": {
-      "category": "19. Other Products and Solutions",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "04. Unified AppSec and Cloud",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261020",
       "file_size": 81164,
       "guide_key": "og-fortiddos",
-      "local_path": "19. Other Products and Solutions/og-fortiddos.md",
+      "local_path": "04. Unified AppSec and Cloud/og-fortiddos.md",
       "missing_checks": 0,
       "pdf_sha256": "33f0ca1dbc477f53123358cdde1cfc58e4a576c60930f073c1ec75a0cb33fc0d",
       "status": "verified",
@@ -325,7 +325,7 @@
     },
     "og-fortideceptor": {
       "category": "10. Advanced Threat Detection",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "February 2, 2026",
       "file_size": 196461,
       "guide_key": "og-fortideceptor",
@@ -339,7 +339,7 @@
     },
     "og-fortidlp": {
       "category": "03. Unified Endpoint",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260716",
       "file_size": 87242,
       "guide_key": "og-fortidlp",
@@ -367,7 +367,7 @@
     },
     "og-fortiedr": {
       "category": "03. Unified Endpoint",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260625",
       "file_size": 327668,
       "guide_key": "og-fortiedr",
@@ -381,7 +381,7 @@
     },
     "og-fortiendpoint": {
       "category": "03. Unified Endpoint",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260925",
       "file_size": 229811,
       "guide_key": "og-fortiendpoint",
@@ -395,7 +395,7 @@
     },
     "og-fortiextender": {
       "category": "02. LAN Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250626",
       "file_size": 201200,
       "guide_key": "og-fortiextender",
@@ -408,12 +408,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiextender.pdf"
     },
     "og-fortiguard": {
-      "category": "19. Other Products and Solutions",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "01. Unified OS",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260504",
       "file_size": 542393,
       "guide_key": "og-fortiguard",
-      "local_path": "19. Other Products and Solutions/og-fortiguard.md",
+      "local_path": "01. Unified OS/og-fortiguard.md",
       "missing_checks": 0,
       "pdf_sha256": "6956386f29998b926bceb43e3afdcd24f5d0696acea4ad9fa4f89489e2ff7718",
       "status": "verified",
@@ -423,7 +423,7 @@
     },
     "og-fortiindentity": {
       "category": "11. Identity and Access",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261001",
       "file_size": 79264,
       "guide_key": "og-fortiindentity",
@@ -437,7 +437,7 @@
     },
     "og-fortimail": {
       "category": "05. Unified WorkSpace Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260202",
       "file_size": 271194,
       "guide_key": "og-fortimail",
@@ -451,7 +451,7 @@
     },
     "og-fortimail-wss": {
       "category": "05. Unified WorkSpace Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260112",
       "file_size": 642242,
       "guide_key": "og-fortimail-wss",
@@ -465,7 +465,7 @@
     },
     "og-fortimanagement": {
       "category": "06. Unified SecOps Platform",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260921",
       "file_size": 726130,
       "guide_key": "og-fortimanagement",
@@ -478,12 +478,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanagement.pdf"
     },
     "og-fortimanager": {
-      "category": "09. Central Management",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "06. Unified SecOps Platform",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261007",
       "file_size": 1037347,
       "guide_key": "og-fortimanager",
-      "local_path": "09. Central Management/og-fortimanager.md",
+      "local_path": "06. Unified SecOps Platform/og-fortimanager.md",
       "missing_checks": 0,
       "pdf_sha256": "762a2fbc436b1747ed57e3b164b29ea7e8fbc0fb088fd96311b66e0283b2ea26",
       "status": "verified",
@@ -493,7 +493,7 @@
     },
     "og-fortimonitor": {
       "category": "07. Unified AI-Ops",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260806",
       "file_size": 104913,
       "guide_key": "og-fortimonitor",
@@ -507,7 +507,7 @@
     },
     "og-fortinac": {
       "category": "02. LAN Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260720",
       "file_size": 527174,
       "guide_key": "og-fortinac",
@@ -521,21 +521,21 @@
     },
     "og-fortindr": {
       "category": "10. Advanced Threat Detection",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
-      "document_date": "20260831",
-      "file_size": 280401,
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
+      "document_date": "20260916",
+      "file_size": 280867,
       "guide_key": "og-fortindr",
       "local_path": "10. Advanced Threat Detection/og-fortindr.md",
       "missing_checks": 0,
-      "pdf_sha256": "723f59f9ab25e5ea15de46fc53dd9b140a68c3447d44a75d9f8182f435703cd2",
+      "pdf_sha256": "fc5477b65c35cb67ab6bbe56cb02e20b558a01dc4d9e4896ac2f687eb4c0b117",
       "status": "verified",
-      "text_sha256": "caf19f9a0cf3d942e807698f90747f5ccee376aca2b6d3ca3024f24e62f4ccbb",
+      "text_sha256": "45c021142cdf1ea30fec4a50140fb7372a6e1874f742e4d5a1883c37fb5862c3",
       "title": "FortiNDR",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortindr.pdf"
     },
     "og-fortipam": {
       "category": "11. Identity and Access",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260825",
       "file_size": 97319,
       "guide_key": "og-fortipam",
@@ -549,7 +549,7 @@
     },
     "og-fortiproxy": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250811",
       "file_size": 634633,
       "guide_key": "og-fortiproxy",
@@ -563,21 +563,21 @@
     },
     "og-fortirecon": {
       "category": "08. Unified Attack Surface Management",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
-      "document_date": "20260721",
-      "file_size": 92444,
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
+      "document_date": "20261028",
+      "file_size": 92183,
       "guide_key": "og-fortirecon",
       "local_path": "08. Unified Attack Surface Management/og-fortirecon.md",
       "missing_checks": 0,
-      "pdf_sha256": "e1566de1b165c67c467d7adf9c0c28b4c49c620e037b85403392bc266db380e2",
+      "pdf_sha256": "8b987777402b7491c41dabacf76ea4b59f763c629c2f85a27a4d7264e947c9c3",
       "status": "verified",
-      "text_sha256": "9050570cafe2af91b6ad5c7effb66f63a6077e283f6a048dfbc8315cb6680641",
+      "text_sha256": "25911dea40c116f084ea46ec3feed03b361def788b227be45cfd7bdf99ce4bbc",
       "title": "FortiRecon",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortirecon.pdf"
     },
     "og-fortisandbox": {
       "category": "10. Advanced Threat Detection",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260918",
       "file_size": 162533,
       "guide_key": "og-fortisandbox",
@@ -591,7 +591,7 @@
     },
     "og-fortisase": {
       "category": "12. SASE",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260910",
       "file_size": 627184,
       "guide_key": "og-fortisase",
@@ -604,12 +604,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortisase.pdf"
     },
     "og-fortisat": {
-      "category": "13. Training",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "08. Unified Attack Surface Management",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260310",
       "file_size": 1401908,
       "guide_key": "og-fortisat",
-      "local_path": "13. Training/og-fortisat.md",
+      "local_path": "08. Unified Attack Surface Management/og-fortisat.md",
       "missing_checks": 0,
       "pdf_sha256": "1735483d9d8cb680cce5c207e2333ff6074a3e7d179f2e04404030cd8fa12708",
       "status": "verified",
@@ -619,7 +619,7 @@
     },
     "og-fortisiem": {
       "category": "06. Unified SecOps Platform",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260721",
       "file_size": 178443,
       "guide_key": "og-fortisiem",
@@ -633,7 +633,7 @@
     },
     "og-fortisoar": {
       "category": "06. Unified SecOps Platform",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260812",
       "file_size": 348965,
       "guide_key": "og-fortisoar",
@@ -647,7 +647,7 @@
     },
     "og-fortisoc": {
       "category": "06. Unified SecOps Platform",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260721",
       "file_size": 1818063,
       "guide_key": "og-fortisoc",
@@ -661,7 +661,7 @@
     },
     "og-fortiswitch": {
       "category": "02. LAN Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260921",
       "file_size": 128063,
       "guide_key": "og-fortiswitch",
@@ -675,7 +675,7 @@
     },
     "og-fortitoken": {
       "category": "11. Identity and Access",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260929",
       "file_size": 456193,
       "guide_key": "og-fortitoken",
@@ -689,7 +689,7 @@
     },
     "og-fortiweb": {
       "category": "04. Unified AppSec and Cloud",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260702",
       "file_size": 267537,
       "guide_key": "og-fortiweb",
@@ -703,7 +703,7 @@
     },
     "og-ir-services": {
       "category": "08. Unified Attack Surface Management",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250807",
       "file_size": 254290,
       "guide_key": "og-ir-services",
@@ -717,7 +717,7 @@
     },
     "og-lan-edge": {
       "category": "02. LAN Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260903",
       "file_size": 454554,
       "guide_key": "og-lan-edge",
@@ -731,7 +731,7 @@
     },
     "og-mfgs": {
       "category": "16. Managed Services",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250518",
       "file_size": 182691,
       "guide_key": "og-mfgs",
@@ -745,7 +745,7 @@
     },
     "og-mssp": {
       "category": "18. Vertical - Others",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260908",
       "file_size": 922036,
       "guide_key": "og-mssp",
@@ -759,7 +759,7 @@
     },
     "og-next-generation-firewall": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260828",
       "file_size": 206872,
       "guide_key": "og-next-generation-firewall",
@@ -772,12 +772,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-next-generation-firewall.pdf"
     },
     "og-nse-program": {
-      "category": "13. Training",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "04. Unified AppSec and Cloud",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260709",
       "file_size": 305337,
       "guide_key": "og-nse-program",
-      "local_path": "13. Training/og-nse-program.md",
+      "local_path": "04. Unified AppSec and Cloud/og-nse-program.md",
       "missing_checks": 0,
       "pdf_sha256": "62596c405fa4ef64f79827d8b4c7f32afa11fbe2d89de93cd56fefdd342867ef",
       "status": "verified",
@@ -786,12 +786,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-nse-program.pdf"
     },
     "og-operational-technology": {
-      "category": "17. Vertical - Operational Technology",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "18. Vertical - Others",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "July 17, 2026",
       "file_size": 2199759,
       "guide_key": "og-operational-technology",
-      "local_path": "17. Vertical - Operational Technology/og-operational-technology.md",
+      "local_path": "18. Vertical - Others/og-operational-technology.md",
       "missing_checks": 0,
       "pdf_sha256": "960dbc9a254c66bcecab360c2e6158bf2783789c8bc296051dfa7f0634b46ca3",
       "status": "verified",
@@ -801,7 +801,7 @@
     },
     "og-secure-sdwan": {
       "category": "01. Unified OS",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20261007",
       "file_size": 1090028,
       "guide_key": "og-secure-sdwan",
@@ -815,7 +815,7 @@
     },
     "og-socaas": {
       "category": "16. Managed Services",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260323",
       "file_size": 501852,
       "guide_key": "og-socaas",
@@ -829,7 +829,7 @@
     },
     "og-sovereign-sase": {
       "category": "12. SASE",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20250904",
       "file_size": 350630,
       "guide_key": "og-sovereign-sase",
@@ -843,7 +843,7 @@
     },
     "og-telco": {
       "category": "18. Vertical - Others",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260428",
       "file_size": 399508,
       "guide_key": "og-telco",
@@ -857,7 +857,7 @@
     },
     "og-wireless": {
       "category": "02. LAN Security",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260702",
       "file_size": 597377,
       "guide_key": "og-wireless",
@@ -870,12 +870,12 @@
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-wireless.pdf"
     },
     "og-ztna": {
-      "category": "11. Identity and Access",
-      "checked_at": "2026-10-26T09:02:20.604854+00:00",
+      "category": "03. Unified Endpoint",
+      "checked_at": "2026-11-02T11:17:48.051404+00:00",
       "document_date": "20260122",
       "file_size": 465087,
       "guide_key": "og-ztna",
-      "local_path": "11. Identity and Access/og-ztna.md",
+      "local_path": "03. Unified Endpoint/og-ztna.md",
       "missing_checks": 0,
       "pdf_sha256": "a38eaaa87a25efbf2bd3493d007e093ef7251e9adc4e155d728f3f44d6c64002",
       "status": "verified",

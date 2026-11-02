@@ -143,10 +143,28 @@ Monitoring multiple office locations and cloud traffic along with Zscaler remote
 • Zscaler and Netflow log ingestion: FC1-10-NDRCL-1247-02-36 x30 (30 units of 100 EPS with 3 years term [36])
 • Virtual sensors: Downloaded free of charge (x3)
 • FortiAI: 5 mil tokens (1 x LIC-FAITOKEN-5M )
+Examples of FortiAI Token usage:
+COMPLEXITY QUESTION AVERAGE TOKENS (INPUT + OUTPUT)
+Simple What can I do with FortiAI? 5,000
+Moderate Show me the latest critical detections in my network. 30,000
+Moderate What suspicious activities have been detected in my network recently? 50,000
+Complex Investigate IP x.x.x.x 300,000
+Complex Investigate a detection ABC 300,000
 4
 
 
 **Table 4.1**
+
+| COMPLEXITY | QUESTION | AVERAGE TOKENS (INPUT + OUTPUT) |
+| --- | --- | --- |
+| Simple | What can I do with FortiAI? | 5,000 |
+| Moderate | Show me the latest critical detections in my network. | 30,000 |
+| Moderate | What suspicious activities have been detected in my network recently? | 50,000 |
+| Complex | Investigate IP x.x.x.x | 300,000 |
+| Complex | Investigate a detection ABC | 300,000 |
+
+
+**Table 4.2**
 
 |  |  |  |
 | --- | --- | --- |
@@ -370,4 +388,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FNDR-OG-R36-20260831
+FNDR-OG-R37-20260916

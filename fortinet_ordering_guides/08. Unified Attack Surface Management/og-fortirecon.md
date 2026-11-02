@@ -198,21 +198,11 @@ Security Orchestration FortiRecon Security Orchestration. Additional 2000 playbo
 
 FortiRecon Ordering Guide
 SKU DESCRIPTION
-Fortinet Red Teaming - Adversary Emulation service - up to 500 billable assets as per FortiRecon EASM and up to 500 in
-FRN-RT-XS-1
-organization headcount
-Fortinet Red Teaming - Adversary Emulation service - up to 1000 billable assets as per FortiRecon EASM and up to 800 in
-FRN-RT-S-1
-organization headcount
-Fortinet Red Teaming - Adversary Emulation service - up to 5000 billable assets as per FortiRecon EASM and up to 4000 in
-FortiRecon Red Teaming1 FRN-RT-M-1
-organization headcount
-Fortinet Red Teaming - Adversary Emulation service - up to 10000 billable assets as per FortiRecon EASM and up to 7000 in
-FRN-RT-L-1
-organization headcount
-Fortinet Red Teaming - Adversary Emulation service - up to 20000 billable assets as per FortiRecon EASM and up to 15000 in
-FRN-RT-XL-1
-organization headcount
+FRN-RT-XS-1 Fortinet Red Teaming - Adversary Emulation service - up to 1000 Target Resources (Billable assets + Organization headcount)
+FRN-RT-S-1 Fortinet Red Teaming - Adversary Emulation service - up to 1800 Target Resources (Billable assets + Organization headcount)
+FortiRecon Red Teaming1 FRN-RT-M-1 Fortinet Red Teaming - Adversary Emulation service - up to 9000 Target Resources (Billable assets + Organization headcount)
+FRN-RT-L-1 Fortinet Red Teaming - Adversary Emulation service - up to 17000 Target Resources (Billable assets + Organization headcount)
+FRN-RT-XL-1 Fortinet Red Teaming - Adversary Emulation service - up to 35000 Target Resources (Billable assets + Organization headcount)
 1 Requires one of the base FortiRecon SKU i.e. EASM or EASM+BP or EASM+BP+ACI
 Frequently Asked Questions
 What defines an asset?
@@ -244,7 +234,7 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FRN-OG-R15-20260721
+FRN-OG-R16-20261028
 
 
 **Table 4.1**

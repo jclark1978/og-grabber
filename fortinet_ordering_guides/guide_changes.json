@@ -1,31 +1,59 @@
 {
   "baseline_initialized": [],
   "binary_only": [],
-  "checked_at": "2026-10-26T09:02:20.604854+00:00",
+  "checked_at": "2026-11-02T11:17:48.051404+00:00",
   "comparison_complete": true,
   "content_review_candidates": [
     {
+      "added_skus": [],
+      "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
+      "diff_path": "changes/diffs/2026-11-02T111748.051404_0000/og-fortindr.diff",
+      "guide_key": "og-fortindr",
+      "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
+      "kind": "content_changed",
+      "local_path": "10. Advanced Threat Detection/og-fortindr.md",
+      "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
+      "pdf_sha256": "fc5477b65c35cb67ab6bbe56cb02e20b558a01dc4d9e4896ac2f687eb4c0b117",
+      "previous_pdf_sha256": "723f59f9ab25e5ea15de46fc53dd9b140a68c3447d44a75d9f8182f435703cd2",
+      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortindr.pdf",
+      "removed_skus": [],
+      "title": "FortiNDR",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortindr.pdf"
+    },
+    {
       "added_skus": [
-        "FAC-OG-R24-20261015"
+        "FAC-OG-R25-20261028",
+        "FC1-10-0ACVM-248-02-DD2",
+        "FC2-10-0ACVM-248-02-DD2",
+        "FC3-10-0ACVM-248-02-DD2",
+        "FC4-10-0ACVM-248-02-DD2",
+        "FC5-10-0ACVM-248-02-DD2",
+        "FC6-10-0ACVM-248-02-DD2",
+        "FC7-10-0ACVM-248-02-DD2",
+        "FC8-10-0ACVM-248-02-DD2",
+        "FC9-10-0ACVM-248-02-DD2"
       ],
       "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
-      "diff_path": "changes/diffs/2026-10-26T090220.604854_0000/og-fortiauthenticator.diff",
+      "diff_path": "changes/diffs/2026-11-02T111748.051404_0000/og-fortiauthenticator.diff",
       "guide_key": "og-fortiauthenticator",
       "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
       "kind": "content_changed",
       "local_path": "11. Identity and Access/og-fortiauthenticator.md",
       "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
-      "pdf_sha256": "11cc132e6d059dd402774509ef09541c6991966038755ed5f0c5475cde78a6c2",
-      "previous_pdf_sha256": "d5712625e6dd459c91abda8d44048f47194290ca0756d909e410d551ba9b7ceb",
+      "pdf_sha256": "7b37020c9ca06a2a6e431069a6a55dc9d688b509ebb4904fdd01103ff5d58e85",
+      "previous_pdf_sha256": "11cc132e6d059dd402774509ef09541c6991966038755ed5f0c5475cde78a6c2",
       "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiauthenticator.pdf",
       "removed_skus": [
-        "FAC-OG-R23-20260806",
-        "FC2-10-ACCLD-511-02-12",
-        "FC2-10-ACCLD-511-02-DD",
-        "FC3-10-ACCLD-511-02-DD",
-        "FC4-10-ACCLD-511-02-12",
-        "FC4-10-ACCLD-511-02-DD",
-        "FC5-10-ACCLD-511-02-DD"
+        "FAC-OG-R24-20261015",
+        "FC1-10-0ACVM-248-02-DD**",
+        "FC2-10-0ACVM-248-02-DD**",
+        "FC3-10-0ACVM-248-02-DD**",
+        "FC4-10-0ACVM-248-02-DD**",
+        "FC5-10-0ACVM-248-02-DD**",
+        "FC6-10-0ACVM-248-02-DD**",
+        "FC7-10-0ACVM-248-02-DD**",
+        "FC8-10-0ACVM-248-02-DD**",
+        "FC9-10-0ACVM-248-02-DD**"
       ],
       "title": "FortiAuthenticator",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiauthenticator.pdf"
@@ -33,107 +61,97 @@
     {
       "added_skus": [],
       "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
-      "diff_path": "changes/diffs/2026-10-26T090220.604854_0000/og-cmpo.diff",
-      "guide_key": "og-cmpo",
+      "diff_path": "changes/diffs/2026-11-02T111748.051404_0000/og-fortirecon.diff",
+      "guide_key": "og-fortirecon",
       "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
       "kind": "content_changed",
-      "local_path": "14. Flexible Licensing/og-cmpo.md",
+      "local_path": "08. Unified Attack Surface Management/og-fortirecon.md",
       "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
-      "pdf_sha256": "7aab72da2d60d0fb76a50cd5ff022f8cd4e77a4e6b0880643de11ffd8df07c46",
-      "previous_pdf_sha256": "6ddb39bb5cd7a85e6778c4268ef7a26ca5e3e36a966667a9fd954176eeab333c",
-      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-cmpo.pdf",
+      "pdf_sha256": "8b987777402b7491c41dabacf76ea4b59f763c629c2f85a27a4d7264e947c9c3",
+      "previous_pdf_sha256": "e1566de1b165c67c467d7adf9c0c28b4c49c620e037b85403392bc266db380e2",
+      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortirecon.pdf",
       "removed_skus": [],
-      "title": "Cloud Marketplace Private Offers",
-      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-cmpo.pdf"
+      "title": "FortiRecon",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortirecon.pdf"
+    }
+  ],
+  "discovery_error": null,
+  "discovery_only": [
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-fortiguard",
+      "kind": "catalog_changed",
+      "local_path": "01. Unified OS/og-fortiguard.md",
+      "title": "FortiGate FortiGuard Subscriptions",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiguard.pdf"
     },
     {
-      "added_skus": [],
-      "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
-      "diff_path": "changes/diffs/2026-10-26T090220.604854_0000/og-forticare.diff",
-      "guide_key": "og-forticare",
-      "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
-      "kind": "content_changed",
-      "local_path": "15. Advanced Support/og-forticare.md",
-      "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
-      "pdf_sha256": "1fb0a4a3c0f4fe71d396701c7629ff8666a4967a8f158c81aa70f10c2e5bb192",
-      "previous_pdf_sha256": "60dcb01a09d2c5365582d0480381fc33ab9e668d372591ac45f6ea165b68623b",
-      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf",
-      "removed_skus": [],
-      "title": "FortiCare",
-      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf"
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-ztna",
+      "kind": "catalog_changed",
+      "local_path": "03. Unified Endpoint/og-ztna.md",
+      "title": "ZTNA",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-ztna.pdf"
     },
     {
-      "added_skus": [],
-      "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
-      "diff_path": "changes/diffs/2026-10-26T090220.604854_0000/og-fortiaigate.diff",
+      "detail": "Catalog identity/location changed; guide content unchanged.",
       "guide_key": "og-fortiaigate",
-      "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
-      "kind": "content_changed",
-      "local_path": "19. Other Products and Solutions/og-fortiaigate.md",
-      "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
-      "pdf_sha256": "fdd7ef9d01a85c8cfaa6761b20089cd977bc56f2312e83a3f52e342fab85b04d",
-      "previous_pdf_sha256": "5de3dba8712d2fed3e48cfda59373a7cbe40ef59c2abba6b3a4b51ef96fe8d06",
-      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiaigate.pdf",
-      "removed_skus": [],
+      "kind": "catalog_changed",
+      "local_path": "04. Unified AppSec and Cloud/og-fortiaigate.md",
       "title": "FortiAIGate",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiaigate.pdf"
     },
     {
-      "added_skus": [
-        "FDD-OG-R13-20261020"
-      ],
-      "detail": "Extracted content changed; review diff for material ordering impact before notifying.",
-      "diff_path": "changes/diffs/2026-10-26T090220.604854_0000/og-fortiddos.diff",
+      "detail": "Catalog identity/location changed; guide content unchanged.",
       "guide_key": "og-fortiddos",
-      "inventory_impact": "Mirrored text refreshed; review guide identity if replaced.",
-      "kind": "content_changed",
-      "local_path": "19. Other Products and Solutions/og-fortiddos.md",
-      "lookup_impact": "Review model, SKU, bundle, licensing, and ordering-rule differences.",
-      "pdf_sha256": "33f0ca1dbc477f53123358cdde1cfc58e4a576c60930f073c1ec75a0cb33fc0d",
-      "previous_pdf_sha256": "4be3262e1b54d5a0dc81365a29de2d149f1d3db18d7e67a4a870ad2c48f572dc",
-      "previous_url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiddos.pdf",
-      "removed_skus": [
-        "FDD-OG-R12-20260323"
-      ],
+      "kind": "catalog_changed",
+      "local_path": "04. Unified AppSec and Cloud/og-fortiddos.md",
       "title": "FortiDDoS",
       "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiddos.pdf"
+    },
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-fortimanager",
+      "kind": "catalog_changed",
+      "local_path": "06. Unified SecOps Platform/og-fortimanager.md",
+      "title": "FortiManager",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanager.pdf"
+    },
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-fortisat",
+      "kind": "catalog_changed",
+      "local_path": "08. Unified Attack Surface Management/og-fortisat.md",
+      "title": "FortiSAT",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortisat.pdf"
+    },
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-forticare",
+      "kind": "catalog_changed",
+      "local_path": "04. Unified AppSec and Cloud/og-forticare.md",
+      "title": "FortiCare",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticare.pdf"
+    },
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-nse-program",
+      "kind": "catalog_changed",
+      "local_path": "04. Unified AppSec and Cloud/og-nse-program.md",
+      "title": "NSE Training & Certification Program",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-nse-program.pdf"
+    },
+    {
+      "detail": "Catalog identity/location changed; guide content unchanged.",
+      "guide_key": "og-operational-technology",
+      "kind": "catalog_changed",
+      "local_path": "18. Vertical - Others/og-operational-technology.md",
+      "title": "OT",
+      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-operational-technology.pdf"
     }
   ],
-  "discovery_error": null,
-  "discovery_only": [],
   "discovery_verified": true,
-  "qualifying_changes": [
-    {
-      "detail": "Absent from two consecutive verified catalogs and official PDF returned 404/410 on both checks.",
-      "guide_key": "og-casb",
-      "inventory_impact": "Mark guide retired; retain archived text for historical lookup.",
-      "kind": "removed",
-      "local_path": "12. SASE/og-casb.md",
-      "lookup_impact": "Do not use retired guide as a current ordering source.",
-      "title": "FortiCASB and FortiGuard CASB Service",
-      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-casb.pdf"
-    },
-    {
-      "detail": "Absent from two consecutive verified catalogs and official PDF returned 404/410 on both checks.",
-      "guide_key": "og-forticloud-mgmt-analytics",
-      "inventory_impact": "Mark guide retired; retain archived text for historical lookup.",
-      "kind": "removed",
-      "local_path": "09. Central Management/og-forticloud-mgmt-analytics.md",
-      "lookup_impact": "Do not use retired guide as a current ordering source.",
-      "title": "FortiCloud SaaS Mgmt and Analytics",
-      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-forticloud-mgmt-analytics.pdf"
-    },
-    {
-      "detail": "Absent from two consecutive verified catalogs and official PDF returned 404/410 on both checks.",
-      "guide_key": "og-fortiedge",
-      "inventory_impact": "Mark guide retired; retain archived text for historical lookup.",
-      "kind": "removed",
-      "local_path": "09. Central Management/og-fortiedge.md",
-      "lookup_impact": "Do not use retired guide as a current ordering source.",
-      "title": "FortiEdge Cloud",
-      "url": "https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiedge.pdf"
-    }
-  ],
+  "qualifying_changes": [],
   "schema_version": 1,
   "unverified": []
 }

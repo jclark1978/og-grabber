@@ -90,6 +90,13 @@ Load Balancing5 
 
 FortiAuthenticator Ordering Guide
 License Order Information
+Monthly Active User (MAU) Licensing and Enforcement
+Starting with FortiAuthenticator 8.0.4, user license enforcement is based on unique users who successfully authenticate within
+a rolling 30-day period, including local and remote users (RADIUS, LDAP, SAML). A 10% usage allowance and an initial 30-day
+grace period apply. Exceeding 110% of licensed capacity after the grace period results in progressive authentication failures.
+Customers should size licenses based on expected monthly active users.
+For details on MAU calculation, enforcement thresholds, exemptions, and HA considerations, see the Fortinet Community MAU
+Announcement.
 FORTIAUTHENTICATOR HARDWARE (F-SERIES MODELS)
 PRODUCT SKU DESCRIPTION
 BASE USER LICENSE
@@ -112,7 +119,7 @@ FortiAuthenticator 300G FAC-300G
 FortiAuthenticator 800G FAC-800G
 user support to 18 000 users by using FortiAuthenticator Hardware Upgrade License.
 4x GE RJ45 ports, 2x SFP, 2x 2TB SSD. Base License supports up to 40 000 users. Expand user
-FortiAuthenticator 3000G FAC-3000G
+FortiAuthenticator 3000G (Available Q1 2027) FAC-3000G
 support to 1 million users by using FortiAuthenticator Hardware Upgrade License.
 USER UPGRADE LICENSE
 PRODUCT SKU DESCRIPTION
@@ -128,13 +135,7 @@ FAC H/W MODEL BASE LICENSE USER LIMIT UPGRADE UPPER LIMIT
 300F/G 1500 3500
 800F/G 8000 18000
 3000F/G 40000 240000 (3000F), 1M (3000G)
-FortiAuthenticator Carrier/Advanced License
-SHORT DESCRIPTION SKU DESCRIPTION
-FortiAuthenticator Advance / Carrier License. Provides unlimited RADIUS and TACACs clients.
-FortiAuthenticator Carrier License FC-10-ACTCR-1343-02-DD
-Available as add-on for FortiAuthenticator VM subscriptions and FAC-3000F/G appliances only.
-HA: A separate carrier add-on SKU is required for each FAC node in an HA deployment. However, with the HA-DR license (available Q4 2026 for VMs only), only the primary node requires the
-carrier add-on license, which is inherited by all secondary nodes.
+FortiAuthenticator 3000G will be available Q1 2027.
 3
 
 
@@ -169,26 +170,25 @@ carrier add-on license, which is inherited by all secondary nodes.
 
 **Table 3.5**
 
-| SHORT DESCRIPTION | SKU | DESCRIPTION |
-| --- | --- | --- |
-
-
-**Table 3.6**
-
 |  |  |  |
 | --- | --- | --- |
 |  |  |  |
 |  |  |  |
 
 FortiAuthenticator Ordering Guide
+FortiAuthenticator Carrier/Advanced License
+SHORT DESCRIPTION SKU DESCRIPTION
+FortiAuthenticator Advance / Carrier License. Provides unlimited RADIUS and TACACs clients.
+FortiAuthenticator Carrier License FC-10-ACTCR-1343-02-DD
+Available as add-on for FortiAuthenticator VM subscriptions and FAC-3000F/G appliances only.
+HA: A separate carrier add-on SKU is required for each FAC node in an HA deployment. However, with the HA-DR license (available Q4 2026 for VM-Subscription only), only the primary node
+requires the carrier add-on license, which is inherited by all secondary nodes.
 FORTIAUTHENTICATOR VIRTUAL MACHINE
 PRODUCT SKU DESCRIPTION
 SUBSCRIPTION (PER USER LICENSE)
-FC1-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 100-999 Users, with FortiCare Elite Support*
-FortiAuthenticator - VM Subscription
-FC2-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 1000-99,999 Users, with FortiCare Elite Support*
-(Available in v8.0 FortiAuthenticator)
-FC3-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 100,000+ Users, with FortiCare Elite Support*
+FC1-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 100-999 Users, with FortiCare Elite Support1
+FortiAuthenticator - VM Subscription FC2-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 1000-99,999 Users, with FortiCare Elite Support1
+FC3-10-ACVMS-1268-02-DD FortiAuthenticator VM Subscription for 100,000+ Users, with FortiCare Elite Support1
 PERPETUAL WITH USER UPGRADES
 VM Base License supports 100 users. Exapnd user support to 1 million plus users by using
 FAC-VM-Base
@@ -197,19 +197,19 @@ FortiAuthenticator-VM Perpetual FAC-VM-100-UG FortiAuthenticator-VM 100 user lic
 FAC-VM-1000-UG FortiAuthenticator-VM 1000 user license upgrade.
 FAC-VM-10000-UG FortiAuthenticator-VM 10 000 user license upgrade.
 SUPPORT CONTRACTS
-FC1-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-500 users).
-FC2-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-1100 users).
-FC3-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-5100 users).
-FC4-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-10 100 users).
-FC8-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-25 100 users).
+FC1-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-500 users).
+FC2-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-1100 users).
+FC3-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-5100 users).
+FC4-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-10 100 users).
+FC8-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-25 100 users).
 FortiAuthenticator-VM Perpetual
-FC5-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-50 100 users).
-FC6-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-100 100 users).
-FC9-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-500 100 users).
-FC7-10-0ACVM-248-02-DD** 1 Year 24x7 FortiCare Contract (1-1M users).
-FCA-10-0ACVM-248-02-DD** FortiCare Premium Support (1mil+ users).
-*FortiCare Elite provides better response time. Please refer to https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-forticare-services.pdf
-**DD specifies the number of years e.g. 1, 3 or 5 years of support
+FC5-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-50 100 users).
+FC6-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-100 100 users).
+FC9-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-500 100 users).
+FC7-10-0ACVM-248-02-DD2 1 Year 24x7 FortiCare Contract (1-1M users).
+FCA-10-0ACVM-248-02-DD2 FortiCare Premium Support (1mil+ users).
+1 FortiCare Elite provides better response time. Please refer to https://www.fortinet.com/content/dam/fortinet/assets/solution-guides/sb-forticare-services.pdf
+2 DD specifies the number of years e.g. 1, 3 or 5 years of support
 For new orders, FAC-VM user licenses are stackable but support contracts are not. For existing users and support upgrade, please request a co-term quotation to your Fortinet authorized
 partner.
 FAC-VM HA nodes require separate licensing.
@@ -229,18 +229,18 @@ FortiAuthenticator FortiClient SSO Mobility License for unlimited FortiClient co
 FCC-FACUNL-LIC
 include FortiClient Endpoint Control License for FortiGate)
 Stackable license.
-HA: A separate SSO add-on license is required for each FAC node in an HA deployment. However, with the HA-DR license (available Q4 2026 for VMs only), only the primary node requires the
-SSO add-on license, which is inherited by all secondary nodes.
-For additional FortiTokens (hardware, FIDO, or FortiToken Mobile) and FortiSMS add-ons to FortiAuthenticator, refer to
-FortiToken order guide here: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortitoken.pdf
-FORTIGUARD SMS
-PRODUCT SKU DESCRIPTION
-FortiSMS SMS-ELIC-100 License for 100 SMS text messages.
-License is stackable. Customer has option to use a third-party SMS gateway (Bring Your Own SMS). SMS SKUs for FortiIdentity Cloud cannot be applied to FortiAuthenticator SMS.
+HA: A separate SSO add-on license is required for each FAC node in an HA deployment. However, with the HA-DR license (available Q4 2026 for VM-Subscription only), only the primary node
+requires the SSO add-on license, which is inherited by all secondary nodes.
 4
 
 
 **Table 4.1**
+
+| SHORT DESCRIPTION | SKU | DESCRIPTION |
+| --- | --- | --- |
+
+
+**Table 4.2**
 
 | FORTIAUTHENTICATOR VIRTUAL MACHINE |  |  |
 | --- | --- | --- |
@@ -248,16 +248,9 @@ License is stackable. Customer has option to use a third-party SMS gateway (Brin
 | SUBSCRIPTION (PER USER LICENSE) |  |  |
 
 
-**Table 4.2**
-
-| FORTICLIENT SSO MOBILITY AGENT |  |  |
-| --- | --- | --- |
-| PRODUCT | SKU | DESCRIPTION |
-
-
 **Table 4.3**
 
-| FORTIGUARD SMS |  |  |
+| FORTICLIENT SSO MOBILITY AGENT |  |  |
 | --- | --- | --- |
 | PRODUCT | SKU | DESCRIPTION |
 
@@ -270,6 +263,12 @@ License is stackable. Customer has option to use a third-party SMS gateway (Brin
 |  |  |  |
 
 FortiAuthenticator Ordering Guide
+For additional FortiTokens (hardware, FIDO, or FortiToken Mobile) and FortiSMS add-ons to FortiAuthenticator, refer to
+FortiToken order guide here: https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortitoken.pdf
+FORTIGUARD SMS
+PRODUCT SKU DESCRIPTION
+FortiSMS SMS-ELIC-100 License for 100 SMS text messages.
+License is stackable. Customer has option to use a third-party SMS gateway (Bring Your Own SMS). SMS SKUs for FortiIdentity Cloud cannot be applied to FortiAuthenticator SMS.
 Maximum Values in Relation to License
 There are different object limits within FortiAuthenticator. The limits (max values) are derived from the total user license count.
 As a general rule of thumb, the maximum values, such as User Groups, will be a factor of the total user license limit. For example,
@@ -290,7 +289,9 @@ SSO Users # of licensed users
 Guest Users # of licensed users
 Social Users # of licensed users
 Device (MAC-based Auth.) # of licensed users x5
-Auth Clients (RADIUS and TACACS+) # of licensed users /3
+# of licensed users /3
+Auth Clients (RADIUS and TACACS+)
+The available ‘Advanced-Carrier License’ unlocks an unlimited device limit.
 Remote LDAP Servers #of licensed users /25
 Remote RADIUS Servers # of licensed users /25
 Remote SAML Servers # of licensed users /25
@@ -299,10 +300,18 @@ User Certificates # of licensed users x 5
 Server Certificates # of licensed users /10
 TACACS+ Services # of licensed users /10
 TACACS+ Service Attribute-value Pairs # of services x 255
+FortiAuthenticator 3000G will be available Q1 2027.
 5
 
 
 **Table 5.1**
+
+| FORTIGUARD SMS |  |  |
+| --- | --- | --- |
+| PRODUCT | SKU | DESCRIPTION |
+
+
+**Table 5.2**
 
 | MAXIMUM VALUES FOR | VM | 300F/G | 800F/G | 3000F/G |
 | --- | --- | --- | --- | --- |
@@ -313,7 +322,7 @@ TACACS+ Service Attribute-value Pairs # of services x 255
 | Guest Users | # of licensed users |  |  |  |
 | Social Users | # of licensed users |  |  |  |
 | Device (MAC-based Auth.) | # of licensed users x5 |  |  |  |
-| Auth Clients (RADIUS and TACACS+) | # of licensed users /3 |  |  |  |
+| Auth Clients (RADIUS and TACACS+) | # of licensed users /3 The available ‘Advanced-Carrier License’ unlocks an unlimited device limit. |  |  |  |
 | Remote LDAP Servers | #of licensed users /25 |  |  |  |
 | Remote RADIUS Servers | # of licensed users /25 |  |  |  |
 | Remote SAML Servers | # of licensed users /25 |  |  |  |
@@ -324,7 +333,7 @@ TACACS+ Service Attribute-value Pairs # of services x 255
 | TACACS+ Service Attribute-value Pairs | # of services x 255 |  |  |  |
 
 
-**Table 5.2**
+**Table 5.3**
 
 |  |  |  |
 | --- | --- | --- |
@@ -633,4 +642,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-FAC-OG-R24-20261015
+FAC-OG-R25-20261028
