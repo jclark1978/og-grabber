@@ -32,8 +32,8 @@ category,title,url,local_path,status,detail
 11. Identity and Access,FortiIdentity Cloud,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortiindentity.pdf,11. Identity and Access/og-fortiindentity.md,verified,PDF/content baseline retained
 05. Unified WorkSpace Security,FortiMail,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimail.pdf,05. Unified WorkSpace Security/og-fortimail.md,verified,PDF/content baseline retained
 05. Unified WorkSpace Security,FortiMail Workspace Security,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimail-wss.pdf,05. Unified WorkSpace Security/og-fortimail-wss.md,verified,PDF/content baseline retained
-06. Unified SecOps Platform,FortiManagement Cloud,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanagement.pdf,06. Unified SecOps Platform/og-fortimanagement.md,verified,PDF/content baseline retained
-06. Unified SecOps Platform,FortiManager,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanager.pdf,06. Unified SecOps Platform/og-fortimanager.md,verified,PDF/content baseline retained
+09. Central Management,FortiManagement Cloud,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanagement.pdf,09. Central Management/og-fortimanagement.md,verified,PDF/content baseline retained
+09. Central Management,FortiManager,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimanager.pdf,09. Central Management/og-fortimanager.md,verified,PDF/content baseline retained
 07. Unified AI-Ops,FortiMonitor,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortimonitor.pdf,07. Unified AI-Ops/og-fortimonitor.md,verified,PDF/content baseline retained
 02. LAN Security,FortiNAC,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortinac.pdf,02. LAN Security/og-fortinac.md,verified,PDF/content baseline retained
 10. Advanced Threat Detection,FortiNDR,https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/og-fortindr.pdf,10. Advanced Threat Detection/og-fortindr.md,verified,PDF/content baseline retained

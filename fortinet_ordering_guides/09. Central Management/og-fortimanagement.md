@@ -279,8 +279,7 @@ Alternatively, using the Pending Registration feature for bulk registrations is 
 registration process.
 Do FortiManagement Cloud subscriptions support FortiSwitch, FortiAP, and FortiExtender devices?
 FortiManagement Cloud supports FortiAP, FortiSwitch, and FortiExtender devices in two different deployment modes –
-connected and managed via FortiGate as the controller or directly managemed from FortiManagement Cloud without a
-FortiGate.
+connected and managed via FortiGate as the controller or directly managed from FortiManagement Cloud without a FortiGate.
 Is FortiCare Support included with FortiManagement Cloud subscriptions?
 For FortiGate devices, FortiCare Premium Support for the hardware is not included in the FortiManagement Cloud subscription.
 However, FortiCare Premium Support is included with the purchase of a FortiGuard services bundle, including Enterprise
@@ -293,7 +292,7 @@ When FortiAP, FortiSwitch, and/or FortiExtender devices are downstream connected
 FortiManagement Cloud license is required to manage these devices.
 Does FortiManagement Cloud support my previous FortiGate Cloud and FortiEdge Cloud SKU and how do we transition to
 FortiManagement Cloud?
-Any existing FortiGate Cloud and FortiEdge Cloud SKUs are compatible with FortiManagement Cloud and continue to work untill
+Any existing FortiGate Cloud and FortiEdge Cloud SKUs are compatible with FortiManagement Cloud and continue to work until
 the expiration dates. Thereafter, customers can switch to the new FortiManagement Cloud SKUs.
 6
 
@@ -346,4 +345,4 @@ tions may affect performance results. Nothing herein represents any binding comm
 that expressly warrants that the identified product will perform according to certain expressly-identified performance metrics and, in such event, only the specific performance metrics expressly identified in such binding written contract shall be binding on Fortinet. For absolute clarity, any
 such warranty will be limited to performance in the same ideal conditions as in Fortinet’s internal lab tests. Fortinet disclaims in full any covenants, representations, and guarantees pursuant hereto, whether express or implied. Fortinet reserves the right to change, modify, transfer, or otherwise
 revise this publication without notice, and the most current version of the publication shall be applicable.
-MGMTCLD-OG-R04-20260904
+MGMTCLD-OG-R05-20260921
